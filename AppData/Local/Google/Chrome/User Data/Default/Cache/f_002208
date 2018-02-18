@@ -1,0 +1,2692 @@
+/* Author Mohsinali Chidi
+/* Deloitte Taleo css for Desktop */
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300);
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {background:none;-webkit-text-size-adjust: 100%;}
+
+iframe {border:2px solid #a3daef;}
+body {
+    margin: 0 auto;
+    background: #f1f2f2;
+    font-family: 'Open Sans', sans-serif !important;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333333;
+	padding: 0;
+}
+.blockpanel .input-select {margin-top:0;}
+table{border-collapse:collapse;}
+input,select,textarea {-webkit-transition: all 0.30s ease-in-out;-moz-transition: all 0.30s ease-in-out;-ms-transition: all 0.30s ease-in-out;-o-transition: all 0.30s ease-in-out;
+  outline: none;}
+input:focus,select:focus,textarea:focus {box-shadow: 0 0 5px rgba(127, 239, 255, 1);}
+
+.mainsection {
+    font-family: 'Open Sans', sans-serif !important;
+}
+body .masterbody,
+.alert-frame,
+.sugInput-sug,
+.callout,
+.blockpanel .input-textarea,
+.blockpanel .input-text,
+.blockpanel .input-smaller input,
+.blockpanel .input-select,
+.blockpanel .input-date-time select,
+.blockpanel .sugInput-input,
+.blockpanel .entity-value select,
+.blockpanel .inputtextmulti,
+.blockpanel .inputtextmulti2 {
+    font-family: 'Open Sans', sans-serif !important;
+}
+body .masterbody,
+.alert-frame,
+.sugInput-sug,
+.callout,
+.myaccount .entity-instruction {
+    font-family: 'Open Sans', sans-serif !important;
+}
+html {height:100%;}
+body{min-height: 100%;}
+.wrapper,.container,#et-ef{min-height: 100%;}
+html>body .headersection .headerpanel .linkpanel .link a {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+}
+.pdf-viewer-style body, table th, table td, label, input, button, select, textarea, .pdf-viewer-style input[type="text"], .pdf-viewer-style input[type="password"], .pdf-viewer-style input[type="datetime"], .pdf-viewer-style input[type="datetime-local"], .pdf-viewer-style input[type="date"], .pdf-viewer-style input[type="month"], .pdf-viewer-style input[type="time"], .pdf-viewer-style input[type="week"], .pdf-viewer-style input[type="number"], .pdf-viewer-style input[type="email"], .pdf-viewer-style input[type="url"], .pdf-viewer-style input[type="search"], .pdf-viewer-style input[type="tel"], .pdf-viewer-style input[type="color"], .pdf-viewer-style .uneditable-input {font-size: 14px;line-height: 20px;}
+input[type="text"]:focus {font-size: 14px;} 
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-candidatePersonalInfoBlock-CSCustomFormSubSection-_id143-dv_cs_candidate_personal_info_UDFCandidatePersonalInfo_PREFIX {
+    width: 120px;
+}
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-candidatePersonalInfoBlock-CSCustomFormSubSection-_id143-dv_cs_candidate_personal_info_FirstName,
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-candidatePersonalInfoBlock-CSCustomFormSubSection-_id143-dv_cs_candidate_personal_info_UDFCandidatePersonalInfo_CAND_MIDDLE_NAME {
+    width: 135px;
+}
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-candidatePersonalInfoBlock-CSCustomFormSubSection-_id143-dv_cs_candidate_personal_info_MiddleInitial {
+    width: 75px;
+}
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-candidatePersonalInfoBlock-CSCustomFormSubSection-_id143-dv_cs_candidate_personal_info_LastName {
+    width: 170px;
+}
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-candidatePersonalInfoBlock-CSCustomFormSubSection-_id143-dv_cs_candidate_personal_info_UDFCandidatePersonalInfo_CAND_PREFERRED_NAME {
+    width: 100px;
+}
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-careerSectionEducationForm-educationFragmentIter-0-_id151-dv_cs_education_gpa,
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-careerSectionEducationForm-educationFragmentIter-1-_id151-dv_cs_education_gpa,
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-careerSectionEducationForm-educationFragmentIter-2-_id151-dv_cs_education_gpa,
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-careerSectionEducationForm-educationFragmentIter-0-_id151-dv_cs_education_gpaRange,
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-careerSectionEducationForm-educationFragmentIter-1-_id151-dv_cs_education_gpaRange,
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-careerSectionEducationForm-educationFragmentIter-2-_id151-dv_cs_education_gpaRange {
+    width: 50px;
+}
+.mainsection {
+    margin:0 0 16px 0;
+	background-color:#ffffff;
+	width:100%;
+	display:table;
+}
+.mainsection .metagrouppanel {
+    display: none !important;
+    width: 100%;
+    margin: 15px 0 15px 0;
+}
+.mainsection .column165, .messagecenter .column165 {display:none;}
+.mainsection .metapanel2 {
+    float: left;
+}
+.mainsection .iframepanel {
+    padding: 25px 10px;
+	border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    border-left: none;
+    border-right: none;
+	font-size:14px;
+	line-height: 1.42857;
+}
+.mainsection .iframepanel p span {font-size:14px !important;}
+.mainsection .iframepanel div strong span {color:#000000 !important;}
+.mainsection .metapanel {
+    margin-bottom: 16px;
+}
+.questionnaire .textindentpanel select {width:100% !important;height:50px;border:1px solid #dedede;}
+.questionnaire .textindentpanel textarea {min-height:100px;}
+.blockpanel .list-column {
+    padding: 5px 10px 5px 5px;
+}
+.blockpanel .inputselect {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #333;
+}
+.mainsection .headerpanel .infopanel {
+    width: 100% !important;
+    margin-bottom: 10px;
+	padding: 0 22px 0 0;
+}
+.mainsection .headerpanel .metapanel .separator {display:none;}
+/* Language specific email this text starts here */
+
+.mainsection .headerpanel .metapanel .metalink a[title="View a printable version of this page"],.mainsection .headerpanel .metapanel .metalink a[title="Druckversion dieser Seite anzeigen"],.mainsection .headerpanel .metapanel .metalink a[title="Voir un aperçu imprimable de cette page"],.mainsection .headerpanel .metapanel .metalink a[title="\67E5\770B\6B64\9875\9762\7684\53EF\6253\5370\7248\672C"],.mainsection .headerpanel .metapanel .metalink a[title="Visa en utskriftsversion av den här sidan"],.mainsection .headerpanel .metapanel .metalink a[title="Ver una versión imprimible de esta página"],.mainsection .headerpanel .metapanel .metalink a[title="\C774\0020\D398\C774\C9C0\C758 \C778\C1C4\0020\AC00\B2A5\D55C\0020\BC84\C804\0020\BCF4\AE30"] {display:none;}
+.mainsection .headerpanel .metapanel .flowstatus + .separator + .metalink a {display:none;}
+
+/* Language specific email this text ends here */
+.mainsection .myjobpage .messagenotepanel .text {
+    color: #fff;
+    font-size: 1.1em;
+}
+.mainsection .myjobpage .messagenotepanel {
+    border: none;
+}
+
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-candidatePersonalInfoBlock-CSCustomFormSubSection-_id143-dv_cs_candidate_personal_info_HomePhone,
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-candidatePersonalInfoBlock-CSCustomFormSubSection-_id143-dv_cs_candidate_personal_info_MobilePhone,
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-candidatePersonalInfoBlock-CSCustomFormSubSection-_id143-dv_cs_candidate_personal_info_WorkPhone {
+    width: 160px;
+}
+.mastercontentpanel .column165 .helppanel {
+    width: 165px;
+}
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_1-candidatePersonalInfoBlock-CSCustomFormSubSection-_id188-dv_cs_candidate_personal_info_UDFCandidatePersonalInfo_SUFFIX {
+    width: 120px;
+}
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-candidatePersonalInfoBlock-CSCustomFormSubSection-_id143-dv_cs_candidate_personal_info_UDFCandidatePersonalInfo_ALT_CITY,
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-candidatePersonalInfoBlock-CSCustomFormSubSection-_id143-dv_cs_candidate_personal_info_UDFCandidatePersonalInfo_ALT_PROVINCEREGIONSTATE,
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-candidatePersonalInfoBlock-CSCustomFormSubSection-_id143-dv_cs_candidate_personal_info_UDFCandidatePersonalInfo_ALT_POSTAL_CODE {
+    width: 160px;
+}
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-CSCustomForm-CSCustomFormSubSection-_id138-dv_cs_basicprofile_Salary,
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-CSCustomForm-CSCustomFormSubSection-_id138-dv_cs_basicprofile_WillTravel,
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-CSCustomForm-CSCustomFormSubSection-_id138-dv_cs_basicprofile_JobTypes,
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-CSCustomForm-CSCustomFormSubSection-_id138-dv_cs_basicprofile_JobSchedules,
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-CSCustomForm-CSCustomFormSubSection-_id138-dv_cs_basicprofile_EmployeeStatus {
+    width: 160px;
+}
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-CSCustomForm-CSCustomFormSubSection-_id138-dv_cs_basicprofile_Currency {
+    width: 135px;
+}
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_1-careerSectionWorkExperienceForm-workExperienceFragmentIter-0-_id180-dv_cs_experience_UDFExperience_SUPERVISOR_TITLE {
+    width: 150px;
+}
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_1-careerSectionWorkExperienceForm-workExperienceFragmentIter-0-_id180-dv_cs_experience_SupervisorPhone {
+    width: 120px;
+}
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-careerSectionEducationForm-educationFragmentIter-0-_id151-dv_cs_education_UDFEducation_TOEFL_SCORE,
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-careerSectionEducationForm-educationFragmentIter-0-_id151-dv_cs_education_UDFEducation_BERLITZ_SCORE,
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-careerSectionEducationForm-educationFragmentIter-0-_id151-dv_cs_education_UDFEducation_Final_Grade,
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-careerSectionEducationForm-educationFragmentIter-0-_id151-dv_cs_education_UDFEducation_ACT_SCORE,
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-careerSectionEducationForm-educationFragmentIter-0-_id151-dv_cs_education_UDFEducation_GMAT_SCORE,
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-careerSectionEducationForm-educationFragmentIter-0-_id151-dv_cs_education_UDFEducation_GRE_SCORE,
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-careerSectionEducationForm-educationFragmentIter-0-_id151-dv_cs_education_UDFEducation_LSAT_SCORE,
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-careerSectionEducationForm-educationFragmentIter-0-_id151-dv_cs_education_UDFEducation_SAT_Score,
+#editTemplate-editForm-content-flowTemplateFull-genericPage-_id132-page_0-careerSectionEducationForm-educationFragmentIter-0-_id151-dv_cs_education_UDFEducation_TOEIC_SCORE {
+    width: 150px;
+}
+input[type="button"] {
+    background-color: #00a3e0;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    color: #ffffff;
+    display: inline-block;
+    height: 46px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+    font-weight: normal;
+    line-height: 19px;
+    position: relative;
+    text-align: center;
+    padding: 0 15px;
+    border: none;
+    margin: 0 16px 0 0;
+    cursor: pointer;
+    font-size: 15px;
+	min-width:126px;
+	-webkit-appearance: none;
+}
+input[type="button"]:hover {
+    background-color: #4cbee9;
+}
+input[type="text"],
+input[type="password"] {
+    border: 1px solid #d2d4cd;
+    color: #999;
+    height: 50px;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #666666;
+	border-radius:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	-webkit-appearance: none;
+}
+
+.jobsearch .editablesection .contentlinepanel {
+    margin: 0 !important;
+}
+.jobsearch .contentlist {
+    font-size: 1.1em;
+}
+.jobsearch .searchresults table.tablelist > tbody,.jobsearch .searchresults table.tablelist > tbody > tr,.jobsearch .searchresults table.tablelist > tbody > tr > td.columnfull {display:block;}
+.jobsearch .contentlist tr.ftlrow td {border-top:1px solid #eee;padding: 16px 0 16px 0;}
+.jobsearch .contentlist tr.ftlrow td .iconcontentpanel {position:relative;}
+.jobsearch .contentlist tr.ftlrow td .iconcontentpanel .editablesection {padding: 0 20px 0 0;width:80%;}
+html[lang="es"] .jobsearch .contentlist tr.ftlrow td .iconcontentpanel .editablesection {width:75%;}
+.jobsearch .contentlist tr.ftlrow td .metalink2 {position:absolute;right:0;top:35%;}
+.jobsearch .contentlist tr.ftlrow td .metalink2 a {color: #00a3e0;
+    background: #fff;text-decoration:none;transition: all .3s linear;
+    -webkit-transition: all .3s linear;border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border: 1px solid #00a3e0;padding:5px 10px;
+    text-align: center;}
+.jobsearch .contentlist tr.ftlrow td .metalink2 a:hover {color: #fff;
+    background-color: #4cbee9;
+    border-color: #4cbee9;}
+
+
+
+.jobsearch .contentlist tr.ftlblankrow {display:none;}
+.headerpanel .rightpanel .metagrouppanel a {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+	color:#005587;
+}
+.headersection .headerpanel .userpanel .metalink a {color:#005587;}
+.mainsection .textindentpanel .inputselect1 {
+    font-size: 15px;
+    padding: 4px;
+}
+.entity-indent > table tr td.custom-form-columns .entity-block label[for$="REFERRING_EMPLOYEE_OFFICE"] + span,.entity-indent > table tr td.custom-form-columns .entity-block label[for$="FUNCTION_SPCLTY_SRVCLINE"] + span {padding:0;}
+.entity-indent > table tr td.custom-form-columns .entity-block label[for$="REFERRING_EMPLOYEE_OFFICE"] + span input,.entity-indent > table tr td.custom-form-columns .entity-block label[for$="FUNCTION_SPCLTY_SRVCLINE"] + span input{width:100%;}
+.entity-indent > table tr td.custom-form-columns .entity-block label[for$="REFERRING_EMPLOYEE_OFFICE"] + span a,.entity-indent > table tr td.custom-form-columns .entity-block label[for$="FUNCTION_SPCLTY_SRVCLINE"] + span a{color: #9c9a9a;
+    background: #fff;
+    border: 1px solid #9c9a9a;
+    height: 46px;
+    line-height: 19px;
+    font-size: 15px;
+    padding: 12px 16px 11px;
+    margin: 8px 0 0 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    min-width: 126px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;}
+.mainsection .requisitionDescription {padding:20px 30px;}
+.mainsection .requisitionDescription .pagerpanel {display:none;}
+.mainsection .requisitionDescription .ftllist + div > .pagerpanel {display:block;}
+.mainsection .requisitionDescription .ftllist .tablelist > tbody,.mainsection .requisitionDescription .ftllist .tablelist > tbody > tr,.mainsection .requisitionDescription .ftllist .tablelist > tbody > tr > td {display:block;padding:0;}
+.mainsection .requisitionDescription .ftllist .tablelist > tbody > tr > td.columnfull div[id$="buttongrouppanelTop.row1"]{display:none;}
+.mainsection .requisitionDescription .ftllist .tablelist > tbody > tr > td.columnfull .editablesection .titlepage {font-size:24px;color:#000000;} 
+td.columnfull .textindentpanel {
+    margin: 0 0 10px 0;
+}
+.messagenotepanel,
+.message-notification,
+.messagecontentpanel {
+    border: 1px solid #e2e2e2;
+    background-color: #f2f2f2;
+}
+.message-notification {
+    border: none;
+    background-color: #f2f2f2;
+	margin:0 0 20px 0;
+}
+td.columnfull span.descriptionpanel span.text p {
+    font-size: 1.1em;
+}
+.message-text,
+.messagetext,
+.messagecontentpanel .text {
+    font-size: 12px;
+    color: #333333;
+	line-height:14px;
+}
+.message-notification a {
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+/* Header starts here */
+
+header {
+    background-color: #000000;
+    padding:0;
+    overflow: hidden;
+}
+.header-container {
+    padding: 3px 0;
+    min-height: 50px;
+    margin: 0 auto;
+    width: 100%;
+	background-color:#000000;
+	display:none;
+}
+.header-inner-wrapper {max-width: 1300px;background-color:#000000;width:100%;}
+.header-container a {display:inline-block;margin:16px;}
+.navbar-brand img {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    width: 100%;
+    display: inline-block;
+    max-width: 161px;
+}
+#dialogTemplate-dialogForm,
+#ftlform {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+body .masterbody {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+	background:none;
+}
+.wrapper {
+    min-height: 300px;
+    max-width: 990px;
+	margin: 0 auto;
+    width: 100%;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+.wrapper .container > iframe[name="Empty Frame"] {display:none;}
+.navbar-brand {
+    height: auto;
+    padding: 0;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.mainsection .metapanel .metalink a,
+.headersection .metalink a,
+a {
+    color: #00a1de;
+}
+.mainsection .titlelink a:hover, .jobsearch .titlelink a:hover {color: #006a92;}
+.mainsection .metagrouppanel .metapanel .metalink a {}
+.headersection .separator {
+    font-size: 0.9em;
+}
+.headersection .metalink a {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+    vertical-align: middle;
+}
+.myaccount .metalink2 a,
+.mainsection .metalink2 a,
+.messagecenter .toolbar a,
+.messagecenter .list-column a,
+.messagecenter .section-name a,
+.alert-button-panel a {
+    color: #666666;
+    font-size: 1em;
+    font-weight: 600;
+}
+.blockpanel .metalink {text-decoration: none;display:inline-block;}
+.jobsearch .action a,
+.blockpanel .metalink a,
+.mainsection .infopanel .metalink2 a {
+    color: #00a1de;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 1.2em;
+}
+.blockpanel .metalink a[id*="RemoveEducation"],.blockpanel .metalink a[id*="AddEducation"],.blockpanel .metalink a[id*="AddWorkExperience"],.blockpanel .metalink a[id*="RemoveWorkExperience"] {display:inline-block;margin:16px 0 16px 0;}
+.jobsearch .action a:hover,
+.blockpanel .metalink a:hover,
+.mainsection .infopanel .metalink2 a:hover {text-decoration:underline;color:#006a92;}
+.mainsection .infopanel .metalink2 a {
+    font-size: 18px;
+}
+.blockpanel .metalink a[id*="AddWorkExperience"],.blockpanel .metalink a[id*="AddEducation"],.blockpanel .metalink a[id*="cmdAdd"] {background:url(../images/plus-icon.png) no-repeat left center;padding: 12px 0 12px 60px;}
+.blockpanel .contentpanel .inputtextmulti2 {margin-bottom:24px;}
+.jobsearch .action a:hover,
+.blockpanel .metalink a:hover,
+.mainsection .infopanel .metalink2 a:hover {
+    text-decoration: underline;
+}
+.mainsection .headerpanel .infopanel .metalink2 a {color:#005587;}
+.mainsection .headerpanel .infopanel .metalink2 a:hover {background:none;color:#006a92;}
+
+.headersection .metalink a:hover,
+.footeraction .footeractionpanel .footergroupactionpanel .metalink2 a:hover,
+.mainsection .metapanel .metalink a:hover
+{
+	background:none;
+}
+.myaccount .metalink2 a:hover,
+.mainsection .metalink2 a:hover,
+.messagecenter .toolbar a:hover,
+.messagecenter .list-column a:hover,
+.messagecenter .section-name a:hover,
+.alert-button-panel a:hover {
+    color: #006a92;
+}
+.mainsection .metapanel .metalink a,
+.mainsection .metapanel .flowstatus,
+.mainsection .metapanel .separator {
+    font-size: 12px;
+}
+a{color: #00a1de;text-decoration:none;}
+.mainsection .metapanel .metalink a:hover,
+.mainsection .metapanel .metalink a:focus,
+.headersection .metalink a:hover,
+.headersection .metalink a:focus,
+a:hover,
+a:focus {
+    color: #006a92;
+    text-decoration: underline;
+}
+a:focus {
+    outline: thin dotted;
+}
+a:focus,
+a:active {
+    -webkit-tap-highlight-color: #ccc;
+}
+a:visited {
+    color: #00a1de;
+}
+.headersection .headerpanel .userpanel .username {
+    color: #000000;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: normal;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+.headersection .headerpanel .userpanel {
+    display: block;
+    margin: 0px 0 0 0;
+    padding: 0;
+    zoom: 1;
+    display: inline-block;
+    line-height: 22px;
+}
+.headersection .headerpanel .userpanel span {}
+.mainsection .editablesection .contentlinepanel {
+    margin: 0 0 10px 0;
+	font-size:12px;
+	line-height: 20px;
+}
+
+/* Adding : to the text starts here */
+
+.mainsection .editablesection .jobposted {color:#333333;}
+.mainsection .editablesection .contentlinepanel:nth-child(3) span:nth-child(1),
+.mainsection .editablesection .contentlinepanel:nth-child(3) span:nth-child(2),
+.mainsection .editablesection .contentlinepanel:nth-child(3) span:nth-child(5) {font-weight:bold;}
+.mainsection .editablesection .contentlinepanel:nth-child(3) span:nth-child(2):after {content:" ";}
+.mainsection .editablesection .contentlinepanel span.inline:before {content:":";font-weight:bold;}
+.mainsection .editablesection .contentlinepanel:nth-child(3) span:nth-child(4):after,
+.mainsection .editablesection .contentlinepanel:nth-child(3) span:nth-child(4):before {content:" ";}
+
+.mainsection .editablesection .contentlinepanel:nth-child(2) > span.text:nth-child(1),
+.mainsection .editablesection .contentlinepanel:nth-child(2) > span.inline:nth-child(2) {font-weight:bold;}
+
+
+/* Adding : to the text ends here */
+
+.mainsection .editablesection .contentlinepanel p,
+.mainsection .editablesection .contentlinepanel font {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif !important;
+    line-height: 24px;
+    color: #666666;
+}
+.mainsection .editablesection .contentlinepanel .titlepage {
+    color: #666666;
+}
+.mainsection .editablesection .contentlinepanel .text {
+    color: #333333;
+}
+.mainsection .editablesection .blockpanel {
+    margin: 10px 0 10px 0;
+}
+html>body .headersection .headerpanel .linkpanel .link {
+    padding: 3px 8px 5px 8px;
+    vertical-align: top;
+}
+.blockpanel .labelcontent {
+    border: none;
+}
+.blockpanel .labelcontent[id*="jobfield_selector"] {padding:0;}
+.blockpanel .labelcontent label {
+    font-size: 14px;
+    margin: 0 0 5px 0;
+    display: inline-block;
+	font-weight:600;
+}
+.pagerpanel .pagerlink a {
+    color: #666666;
+    padding: 4px 10px;
+    cursor: pointer;
+    font-weight: normal;
+}
+.pagerpanel .pagerlink {
+    padding-right: 0;
+}
+.pagerpanel .navigation-link-disabled {
+    color: #ffffff;
+    padding: 4px 10px;
+    border: 1px solid #0096d7;
+    font-weight: 600;
+    background-color: #0096d7;
+    margin-right: 10px;
+}
+.mainsection .pagerpanel .pagersectionpanel {display:inline-block !important;margin:0 0.2%;}
+.mainsection .pagerpanel .pagersectionpanel a#previous,
+.mainsection .pagerpanel .pagersectionpanel a#next {
+    color: #00a3e0;
+    border: 1px solid #00a3e0;
+    background-color: #ffffff;
+    text-decoration: none;
+	transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+.mainsection .pagerpanel .pagersectionpanel a#previous:hover,
+.mainsection .pagerpanel .pagersectionpanel a#next:hover {
+    color: #ffffff;
+    border: 1px solid #00a3e0;
+    background-color: #00a3e0;
+    text-decoration: none;
+}
+.mainsection .pagerpanel .pagersectionpanel .separator {display:none;}
+.pagerpanel .pagerlinkoff a {
+    color: #ffffff;
+    padding: 2px 16px;
+    border: 1px solid #00a3e0;
+    font-weight: normal;
+    background-color: #00a3e0;
+	border-radius: 2px;
+	transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+.mainsection .pagerpanel .pagersectionpanel .pagerlink a:hover {color: #00a1de;}
+.mainsection .pagerpanel .pagersectionpanel .pagerlinkoff a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #00a3e0;
+}
+.mainsection .pagerpanel .pagersectionpanel .pagerlinkoff a:hover {color: #ffffff;}
+.mainsection .pagerpanel .pagersectionpanel .pagerlinkselected a,
+.mainsection .pagerpanel .pagersectionpanel .pagerlink a {
+    font-weight: normal;
+    font-size: 14px;
+    padding: 2px 8px;
+}
+.mainsection .pagerpanel .pagersectionpanel .pagerlinkselected a {
+    border: 1px solid #0096d7;
+    background-color: #0096d7;
+	border-radius: 2px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+	color:#ffffff;
+}
+.mainsection .pagerpanel .pagersectionpanel .pagerlink a:hover {text-decoration:none;}
+.mainsection .pagerpanel .pagersectionpanel a[id*="Previous"],.mainsection .pagerpanel .pagersectionpanel a[id*="Next"] {background-color: #ffffff;border: 1px solid #00a3e0;color:#00a3e0;border-radius: 2px;transition: all .3s linear;-webkit-transition: all .3s linear;    padding: 2px 16px;}
+.mainsection .pagerpanel .pagersectionpanel a[id*="Previous"]:hover,.mainsection .pagerpanel .pagersectionpanel a[id*="Next"]:hover {background-color: #4cbee9;border: 1px solid #4cbee9;color:#ffffff;}
+
+.mainsection .searchresults .label,
+.mainsection .myjobpage .label,
+.mainsection .pagerpanel .pagersectionpanel .pagerlabel {
+    font-size: 1em;
+}
+.mainsection .searchresults .text,
+.mainsection .myjobpage .text,
+.mainsection .pagerpanel .pagersectionpanel .separator {
+    color: #686868;
+}
+.searchLookuptext {
+    font-size: 16px;
+    line-height: 18px;
+}
+.headersection .headerpanel .linkpanel .magnifierimg {
+    display: none;
+}
+.headersection .headerpanel .linkpanel .link {
+    background: #666666;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    color: #ffffff;
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    text-align: center;
+    padding: 0;
+    border: none;
+}
+.mainsection .jobsearch {border-top: 2px solid #0ca5e0;padding:30px 20px 15px 20px;}
+.mainsection .jobsearch #topScroll {border: none;padding: 0;}
+.mainsection .jobsearch #topScroll #languageSelectInterface select {height:50px;}
+.mainsection .jobsearch #topScroll #basicSearchHeaderInterface {display:none;}
+.jobsearch .resultpropertiespanel {display:none;}
+.mainsection .searchresults .resultstitlepanel {margin:0;}
+.mainsection .searchresults .resultstitlepanel .no-change-header {font-size:26px;line-height:28px;}
+.mainsection .searchresults .resultstitlepanel .no-change-header .subtitle {font-size:26px;line-height:28px;display: inline-block;color: #000;}
+
+.messageerrorpanel, .message-error {border: none;margin: 10px 0 0 0;}
+.message-error h1.no-change-header,.messageerrorpanel h1.no-change-header {font-size:18px;font-weight:600;color:#000000;}
+
+
+.topSearchPanel {
+    background-color: #0099cc;
+}
+.search-panel-links-container {
+    margin-top: 4px;
+    margin-right: 20px;
+}
+.search-panel-links-container li a {
+    color: #fff;
+    font-size: 14px;
+}
+.jobsearch .info-panel .subtitle .page-info-panel {
+    margin: 10px 0;
+}
+.jobsearch .info-panel .subtitle .page-info-panel .info-panel-title {
+    font-size: 100%;
+}
+.jobsearch .info-panel .subtitle .page-info-panel .paging-info-data {
+    font-size: 15px;
+    color: #003399;
+}
+.topSearchPanel .criteria-field label {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 10px 0 0;
+}
+.topSearchPanel .criteria-field input[type="button"] {
+    color: #ffffff;
+    background-color: #eaeaef;
+}
+.topSearchPanel .criteria-field input[type="button"]:hover {
+    background-color: #f8f8f9 !important;
+}
+.filter-panel span.icon,
+.filter-panel a#POSTING_DATE-link {
+    vertical-align: middle;
+}
+.filter-panel a#POSTING_DATE-link {
+    color: #003399;
+}
+.filter-group select {
+    padding: 5px 10px;
+}
+.filter-group {
+    border-top: 1px solid #d2d4cd;
+}
+.filter-group .label-wrapper .checkboxp,
+.filter-group .label-wrapper .valuesdiv {
+    vertical-align: middle;
+}
+.filter-group .label-wrapper {
+    margin-bottom: 8px;
+}
+.filter-group .checkbox-label {
+    line-height: 18px;
+}
+.filter-group .label-wrapper .checkboxp {
+    background-position: left center;
+}
+.filter-group a {
+    color: #003399;
+}
+.filter-top-panel-container {
+    background-color: #f8f9f9;
+}
+.filter-list {
+    padding: 10px 0 10px 10px;
+}
+.filter-list li {
+    border: 1px solid #666;
+    padding: 3px;
+    color: #666666;
+    margin: 0 10px 0 0;
+}
+.filter-list li input {
+    padding: 0 10px;
+    margin: 0;
+}
+.filter select {
+    padding: 7px 10px;
+    font-size: 16px;
+}
+.list-structure .section-name a {
+    float: left;
+}
+.list-structure .section-name a .no-change-header {
+    font-size: 0.8em;
+}
+.list-structure .section-name a .no-change-header span {
+    margin-top: 0;
+}
+.list-structure table .list-evenrows .list-column {
+    padding: 10px;
+}
+.list-structure table .list-evenrows .list-column .list-column-value {
+    font-size: 1em;
+}
+.list-top-panel-box select {
+    padding: 5px 10px;
+}
+.clear-top-filter a.clear-button {
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.result-list-button {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.result-list-button:hover {
+    background-color: #003399;
+    color: #ffffff;
+}
+.pagerpanel {
+    padding-bottom: 30px;
+}
+#jobsTableContainer .table tr td,
+#jobsTableContainer .table tr th {
+    padding: 10px;
+}
+#jobsTableContainer .table tr th span a {
+    font-size: 16px;
+    font-weight: 600;
+}
+#jobsTableContainer .table tr.headers th {
+    font-size: 16px;
+    font-weight: 600;
+}
+.mainsection .subtitle,
+.messagecenter .page-header-title {
+    color: #666666;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.mainsection .subtitle,
+.mainsection .editablesection .subtitle {
+    color: #003399;
+}
+.headersection .headerpanel .linkpanel .link a:hover,
+.headersection .headerpanel .linkpanel .link a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.blockpanel .contentpanel .separatorpanel + input[type="button"] {
+    margin-top: 10px;
+}
+ul.multiline-list li .multiline-data-container span a {
+    font-size: 16px;
+    color: #003399;
+    font-weight: 600;
+}
+.multiline-list> li {
+    padding: 15px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+.entity-label {
+    line-height: 24px;
+    color: #333;
+}
+.entity-label .mandatory-img {width: 5px;vertical-align: top;position: relative;top: 6px;margin: 0 2px 0 0;}
+.entity-label .requiredimg {width: 5px;vertical-align: top;position: relative;top: 6px;margin: 0 2px 0 0;}
+.blockpanel fieldset legend label .requiredimg {width: 5px;vertical-align: top;position: relative;top: 3px;margin: 0 2px 0 0;}
+.entity-label + input {
+    height: 50px;
+    width: 99%;
+    margin-bottom: 13px;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-appearance: none;
+}
+.accessmanagement .page-header-text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+}
+.contentpanel .separatorpanel + input,
+.mainsection .inputbutton,
+.accessmanagement .nav-btn {
+    background-color: #00a3e0;
+    color: #fff;
+    font-weight: normal;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    border-radius: 0;
+    border: 1px;
+    height: 46px;
+    line-height: 19px;
+    font-size: 15px;
+    padding: 0 16px;
+    margin: 0 16px 0 0;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	min-width:126px;
+	-webkit-appearance: none;
+}
+.mainsection .inputbutton[title*="Apply"] {font-weight:bold;}
+input[type="button"][id*="CancelButton"],input[type="button"][id*="LegalDisclaimerPage-CancelButton"] {float:left;}
+
+.accessmanagement .nav-btn[id*="login-register"],.accessmanagement .nav-btn[id*="dialogForm-cancel"],input[type="button"][id*="LegalDisclaimerPage-CancelButton"],input[type="button"][id*="commandButton_reset_jobfield_selector"],input[type="button"][id*="CancelButton"],.mainsection .inputbutton[value="Réinitialiser"],.mainsection .inputbutton[id*="CommandButton_down_cancel_bottom"],.mainsection .inputbutton[id*="CommandButton_reset_location_selector"],.alert-frame .alert-button-panel input[id*="no_saveAsDraftConfirmation"]{color: #00a3e0;background: #fff;border: 1px solid #00a3e0;}
+
+.accessmanagement .nav-btn[id*="login-register"]:hover,.accessmanagement .nav-btn[id*="login-register"]:focus,.accessmanagement .nav-btn[id*="dialogForm-cancel"]:hover,.accessmanagement .nav-btn[id*="dialogForm-cancel"]:focus,input[type="button"][id*="LegalDisclaimerPage-CancelButton"]:hover,input[type="button"][id*="LegalDisclaimerPage-CancelButton"]:focus,input[type="button"][id*="commandButton_reset_jobfield_selector"]:hover,input[type="button"][id*="commandButton_reset_jobfield_selector"]:focus,input[type="button"][id*="CancelButton"]:focus,input[type="button"][id*="CancelButton"]:hover,.mainsection .inputbutton[value="Réinitialiser"]:hover,.mainsection .inputbutton[value="Réinitialiser"]:focus,.mainsection .inputbutton[id*="CommandButton_down_cancel_bottom"]:hover,.mainsection .inputbutton[id*="CommandButton_down_cancel_bottom"]:focus,.mainsection .inputbutton[id*="CommandButton_reset_location_selector"]:hover,.mainsection .inputbutton[id*="CommandButton_reset_location_selector"]:focus,.alert-frame .alert-button-panel input[id*="no_saveAsDraftConfirmation"]:hover,.alert-frame .alert-button-panel input[id*="no_saveAsDraftConfirmation"]:focus {color: #fff;background-color: #4cbee9;border-color: #4cbee9;}
+.accessmanagement .nav-btn:hover,
+.accessmanagement .nav-btn:focus,
+.accessmanagement .nav-btn:active {
+    background-position: 0 99%;
+}
+.footeraction .box .boxbottom,
+.headersection .box .boxtop {
+    display: none;
+}
+.headersection .spacerlink2panel,
+.headersection .link2panel {
+    padding: 0;
+    border: 0;
+}
+.mainsection > span {
+    border-radius: 0;
+    margin:0;
+    height: auto;
+    content: "";
+    clear: both;
+    display: table;
+}
+.mainsection > span:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.mainsection > span.requisitionDescription {
+    width: 100%;
+    padding: 0 15px;
+}
+.accessmanagement .button-group-center {
+    display: inline-block;
+    padding: 0;
+    text-align: left;
+    margin: 20px 0 40px 0;
+    float: right;
+    width: 50%;
+}
+.accessmanagement .block-main-border-fix {
+    padding:60px 40px 0 40px;
+	border-top:2px solid #0ca5e0;
+	display:table;
+	width:100%;
+	clear:both;
+}
+.accessmanagement .block-main-border-fix .entity-label + input {border-radius: 0;-webkit-border-radius: 0;-moz-border-radius: 0;}
+.mainsection .mastercontentpanel2 {border-top:2px solid #0ca5e0;}
+.message-title,
+.messagetitle {
+    font-size: 14px;
+    font-weight: 600;
+	padding:0 0 5px 0;
+	line-height:16px;
+}
+.iam-section-name .iam-entity-instruction ul li {
+    font-size: 13px;
+    line-height: 17px;
+}
+.footeraction .footeractionpanel,
+.headersection .headerpanel {
+    background:none;
+    border: 0;
+    padding: 0;
+}
+.headersection .headerpanel {
+    padding:20px 0 10px 0;
+	margin:0;
+}
+.accessmanagement .page-heading-header-title {
+    color: #000000;
+	font-weight:normal;
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+.block-main-border-fix .page-header {
+    width: 48%;
+    float: left;
+    position: relative;
+    min-height: inherit;
+    overflow-y: auto;
+    padding-right: 2%;
+}
+.accessmanagement .page-header {padding-top: 0;padding-bottom: 0px;}
+
+.dialog-columns table {
+    width: 100%;
+}
+
+.sugInput-sug {width:401px;background-color: #fff;box-shadow: 0 2px 2px rgba(0,0,0,.3);-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.3);-moz-box-shadow: 0 2px 2px rgba(0,0,0,.3);padding:0 20px;border:none;}
+.sugInput-sug .sugInput-sug-div {padding:10px 0;font-size: 14px;line-height:16px;color: #333;border-top: 1px solid #f1f1f1;border-bottom:none;}
+.sugInput-sug .sugInput-sug-div:first-child {border:none;}
+.sugInput-sug .sugInput-sug-div .sugInput-sug-span {font-weight:normal;}
+.sugInput-sug .sugInput-sug-div-over {background:none;color: #05a0e1;}
+.sugInput-sug .sugInput-sug-div-over span {color: #05a0e1;}
+.error-label {color:#e30613;line-height: 18px;font-size: 14px;}
+
+/* EEO Diversity Starts here */
+
+head[title="EEO Diversity"] + body .subtitle {background-color: #f4f4f4;color: #000000;font-size: 18px;font-weight: 400;padding: 5px 10px;margin-bottom: 15px;}
+head[title="EEO Diversity"] + body .text {margin-bottom:4px;line-height:18px;display:block;font-weight:600;}
+head[title="EEO Diversity"] + body .text .requiredimg {width: 5px;vertical-align: top;position: relative;top: 6px;margin: 0 1px 0 0;}
+head[title="EEO Diversity"] + body .textindentpanel {width:46%;}
+head[title="EEO Diversity"] + body .textindentpanel select {width:100% !important;height:50px;border-radius:0;}
+.entity-indent > table tr td.custom-form-columns .entity-block fieldset.entity-value div select[id*="candidate_personal_info_Birthday"] {width:100% !important;}
+
+/* EEO Diversity Ends here */
+
+/* EEO Disability Starts here */
+
+.pdf-viewer-style #pdf-viewer {    width: 100% !important;}
+.pdf-viewer-style .form-actions {background:none;border:none;}
+.pdf-viewer-style .form-actions #fullscreen-btn {color: #00a3e0;
+    background: #fff;
+    border: 1px solid #00a3e0;
+    font-weight: normal;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    height: 36px;
+    line-height: 19px;
+    font-size: 15px;
+    padding: 0 16px;margin: 0 10px 0 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    min-width: 126px;box-shadow: none;
+    text-shadow: none;display:none;}
+.pdf-viewer-style .form-actions #fullscreen-btn:hover {color: #fff;background-color: #4cbee9;border-color: #4cbee9;}	
+.pdf-viewer-style #pdf-viewer .fields input.textbox {border: 1px solid #bfbfbf;border-radius:0;box-shadow:none;}
+.pdf-viewer-style #pdf-viewer .pdf-page {border:none;}
+/* EEO Disability Ends here */
+
+/* Resume/ CV Starts here */
+head[title="Attachments"] + body table.tablelist td.columnfull .blockpanel .textindentpanel table > tbody,head[title="Attachments"] + body table.tablelist td.columnfull .blockpanel .textindentpanel table > tbody > tr,head[title="Attachments"] + body table.tablelist td.columnfull .blockpanel .textindentpanel table > tbody > tr > td {display:block;margin:0;padding:0;width:100%;}
+
+head[title="Resume/  CV"] + body .blockpanel .contentpanel,head[title="Attachments"] + body .blockpanel .contentpanel {width:50%;margin:20px auto 0;text-align: left;}
+head[title="Resume/  CV"] + body .blockpanel .textindentpanel table tr td {width:100%;}
+
+head[title="Resume/ CV"] + body .blockpanel .contentpanel {width:50%;margin:20px auto 0;text-align: left;}
+head[title="Resume/ CV"] + body .blockpanel .textindentpanel table tr td {width:100%;}
+
+.blockpanel .contentpanel .entity-label[for$="uploadedFile"] {display:none;}	
+.blockpanel .contentpanel input[type="file"] {border:1px solid #bfbfbf;height:auto;position:relative;margin-bottom: 20px;cursor: pointer;font-size: 16px;line-height: 17px;color: #444444;padding:20px 10px 20px 10px;}
+.blockpanel .contentpanel input[type="file"]::-webkit-file-upload-button {cursor:pointer;}
+head[title="Resume/  CV"] + body .blockpanel .contentpanel input[name$="AttachedFilesBlock-comment"] {height:60px;margin-bottom: 20px;} 
+
+html[lang="es"] .mainsection .columnfull span[id*="resumeView"] .blockpanel .tablelistindent,.mainsection .columnfull span[id*="resumeView"] .blockpanel .textindentpanel input{margin:0 0 16px 0;}
+html[lang="es"] .mainsection .columnfull span[id*="resumeView"] .partner-options.import fieldset.fs-508 span.fs-508-block {padding-left: 0;vertical-align: inherit;padding-right: 10px;}
+html[lang="es"] .mainsection .columnfull span[id*="resumeView"] .partner-options.import fieldset.fs-508 span.fs-508-block label.fs-508-label {padding:0;margin:0;}
+html[lang="es"] .mainsection .columnfull span[id*="resumeView"] .blockpanel .textindentpanel input[type="file"] {border: 1px solid #bfbfbf;height: auto;position: relative;margin-bottom: 20px;cursor: pointer;font-size: 16px;line-height: 17px;color: #444444;padding: 20px 10px 20px 10px;max-width: 450px;width: 100%;}
+
+.mainsection .columnfull span[id*="resumeView"] .blockpanel .tablelistindent,
+.mainsection .columnfull span[id*="resumeView"] .blockpanel .textindentpanel input{margin:0 0 16px 0;clear:both;}
+.mainsection .columnfull span[id*="resumeView"] .partner-options.import fieldset.fs-508 span.fs-508-block {padding-left: 0;vertical-align: inherit;padding-right: 10px;}
+.mainsection .columnfull span[id*="resumeView"] .partner-options.import fieldset.fs-508 span.fs-508-block label.fs-508-label {padding:0;margin:0;}
+.mainsection .columnfull span[id*="resumeView"] .blockpanel .textindentpanel input[type="file"] {border: 1px solid #bfbfbf;height: auto;position: relative;margin-bottom: 20px;cursor: pointer;font-size: 16px;line-height: 17px;color: #444444;padding: 20px 10px 20px 10px;max-width: 450px;width: 100%;}
+input[type="file"]::-webkit-file-upload-button {cursor:pointer;}
+/* Resume/ CV Ends here */
+
+/* Parsing Starts here */
+head[title="Parsing"] + body .blockpanel .tablelistindent {margin-bottom:20px;}
+head[title="Parsing"] + body .blockpanel .textindentpanel .labelnote {font-size:14px;}
+
+/* Parsing Ends here */
+
+.myaccount {display: table;clear: both;background: #fff;padding: 30px 40px;width:100%;}
+.myaccount .tablelist > tbody,.myaccount .tablelist > tbody > tr,.myaccount .tablelist > tbody > tr > td.columnfull {display:block;padding:0;}
+.myaccount .tablelist .column165 {display:none;}
+
+/* Employment Preferences Starts here */
+
+.blockpanel h3.no-change-header span.subtitle label,.blockpanel span.subtitle h3.no-change-header label {font-weight:600;font-size:16px;color:#000000;display:inline-block;margin:16px 0 16px 0;}
+body fieldset select {height:50px;font-size: 14px;line-height: 18px;padding: 0 0 0 10px;width: 300px;margin-bottom: 24px;}
+
+.olflist {margin:24px 0 0 0;display:block;}
+.olflist .listpanel:first-child {border:none;margin:0;padding:0;}
+.olflist .listpanel h3.no-change-header {background-color: #f4f4f4;padding:5px 10px;display:block;}
+.olflist .listpanel h3.no-change-header a {text-decoration:none;display:inline-block;}
+.olflist .listpanel h3.no-change-header span {margin:0;}
+
+/* Employment Preferences Ends here */
+
+/* Review And Submit Starts here */
+
+head[title="Review and Submit"] + body .mainsection .columnfull > .descriptionpanel .subtitle,.mainsection .columnfull > .descriptionpanel .subtitle[id*="applicationSummary-summaryTitleInfo"] {font-size:14px;line-height:18px;}
+head[title="Review and Submit"] + body .summary .value {line-height:24px;}
+head[title="Review and Submit"] + body .blockpanel h2.no-change-header span {padding: 5px 10px 7px;background-color: #f4f4f4;margin-bottom: 0px;display: inline-block;font-weight: normal !important;}
+head[title="Review and Submit"] + body .mainsection .headerpanel .buttonpanel-container,
+head[title*="und weiterleiten"] + body .mainsection .headerpanel .buttonpanel-container,
+head[title*="rifier et soumettre"] + body .mainsection .headerpanel .buttonpanel-container,
+head[title*="Granska och skicka"] + body .mainsection .headerpanel .buttonpanel-container {display: block;background-color: #ffffff;padding: 36px 40px 34px 40px;margin-bottom: 15px;}
+/* Review And Submit Ends here */
+
+
+
+/* French language few css ends here */
+
+html[lang="es"] .olflist .listpanel .listcontentpanel span.text {word-break: break-word;}
+html[lang="es"] .olflist .listpanel h3.no-change-header span {word-break: break-word;}
+html[lang="es"] input[id*="legalDisclaimerContinueButton"] {margin-bottom:5px;}
+
+.questionnaire span,
+.questionnaire label {
+    font-size: 14px;
+    line-height: 16px;
+}
+.questionnaire span.index {position:relative;top:2px;}
+.questionnaire fieldset legend label .requiredimg {top: 5px;}
+.questionnaire fieldset legend label {margin-bottom:16px;display:inline-block !important;}
+.questionnaire fieldset {
+    margin-bottom: 24px;
+}
+.questionnaire legend, .questionnaire label {display: inline-block;margin-bottom: 16px;}
+.questionnaire label input {position:relative;top:1px;}
+/* see all jobs filter popup starts here */
+
+#seeAllOlfPanel #title {
+    margin: 0;
+    padding: 15px;
+    height: auto;
+}
+#seeAllOlfPanel .clearFilter {
+    border: none;
+    background: none;
+}
+#seeAllOlfPanel .checkbox-unchecked {
+    background-position: left 6px;
+}
+#seeAllOlfPanel .dataTable tr td {
+    padding: 0 10px;
+}
+#seeAllOlfPanel .see-all-olf-actions {
+    height: auto;
+    display: table;
+    width: 100%;
+}
+#seeAllOlfPanel .see-all-olf-actions .see-all-olf-cancel {
+    margin-left: 10px;
+}
+#seeAllOlfPanel .see-all-olf-actions .see-all-olf-add {
+    margin-right: 10px;
+}
+/* see all jobs filter popup ends here */
+
+.mainsection .myjobpage .listingperpagepanel .inputselect {
+    margin-top: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+.mainsection .myjobpage .sortbypanel .inputselect {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    padding: 5px 10px;
+}
+.mainsection .myjobpage .statuspanel {
+    margin-bottom: 10px;
+}
+.accessmanagement .entity-mandatory-field {
+    padding: 64px 0 0 2%;
+    float: right;
+    width: 50%;
+    text-align: right;
+    margin: 0 0 10px 0;
+    font-style: normal;
+    font-size: 12px;
+    color: #bbbbbb;
+}
+#dialogTemplate-dialogForm[action*="forgotUsername"] .block-main-border-fix > table {margin-top:64px;}
+.accessmanagement .entity-mandatory-field:before{content:"*";color:red;font-size:12px;}
+.accessmanagement .entity-label {
+    display: block;
+    padding-left: 2px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    color: #333333;
+	margin-bottom:5px;
+	line-height: 20px;
+}
+.accessmanagement .entity-label .iam-entity-label-mandatory {width:5px;vertical-align:top;position: relative;top: 5px;margin: 0 2px 0 0;}
+.block-main-border-fix > table {
+    width: 50%;
+    padding: 0 0 0 2%;
+	float:right;
+}
+.accessmanagement .dialog-columns {padding-top:0;}
+.button-group-center {
+    padding: 0 2%;
+    float: left;
+    width: 45%;
+}
+.button-group-center > input[type="button"] {
+    display: inline-block;
+    margin-left: 16px;
+	margin-right: 0;
+    cursor: pointer;
+	min-width:126px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+}
+.button-group-center > input[type="button"] + input[type="button"] {
+    margin-left: 0;
+	float:left;
+}
+.iam-link-small-no-text-decoration {
+    font-size: 13px;
+	display:block;
+	margin-bottom:5px;
+}
+.iam-link-small-no-text-decoration a {display:inline-block;}
+.mainsection .buttonpanel-container {
+    height: auto;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+.mainsection .headerpanel .buttonpanel-container {display: block;background-color: #ffffff;padding: 36px 40px 34px 40px;margin-bottom: 15px;}
+.mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton {color: #00a3e0;background: #fff;border: 1px solid #00a3e0;}
+.mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton:hover,.mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton:focus {color: #fff;background-color: #4cbee9;border-color: #4cbee9;}
+.mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton[id*="submitCmd"],.mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton[id*="saveContinueCmd"] {color: #ffffff;background-color: #00a3e0;float: right;margin: 0;}
+.mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton[id*="submitCmd"]:hover,.mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton[id*="submitCmd"]:focus,.mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton[id*="saveContinueCmd"]:hover,.mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton[id*="saveContinueCmd"]:focus {color: #fff;background-color: #4cbee9;border-color: #4cbee9;}
+
+.mainsection > span.separatorpanel:emty {
+    display: none;
+}
+.mainsection .tablelist {
+    margin: 16px 0 0 0;
+}
+.mainsection .footeractionpanel,
+.mainsection > span.mastercontentpanel,
+.mainsection > span.headerpanel,
+.mainsection > span.boxtrain,
+.mainsection > span.separatorpanel {
+    height: auto;
+}
+
+.mainsection .separatorpanel {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.mainsection > span.footeraction {
+    box-shadow: 0 0 0;
+    border: 0;
+    width: 100%;
+    margin-top: 0;
+	border-top:15px solid #f1f2f2;
+	background-color:#ffffff;
+	padding: 36px 40px 34px 40px;
+}
+.mainsection #et-ef-content-flowTemplate-mastercontentpanel2 + span.footeraction,.mainsection .mastercontentpanel2 + span.footeraction {border-top:none;background:none;padding:0;}
+.mainsection > span.footeraction + .metapanel2 {margin: 0 40px 20px;padding: 0;}
+.mainsection .footeractionpanel .buttongrouppanel2 {padding:0;}
+.mainsection .footeractionpanel .buttongrouppanel2 .leftpanel {width:100%;}
+.mainsection .footeractionpanel .buttongrouppanel2 .leftpanel .inputbutton,head[title="Review and Submit"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton,head[title*="fen und weiterleiten"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton,head[title*="rifier et soumettre"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton,
+head[title*="Granska och skicka"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton{color: #00a3e0;background: #fff;border: 1px solid #00a3e0;}
+
+.mainsection .footeractionpanel .buttongrouppanel2 .leftpanel .inputbutton:hover,.mainsection .footeractionpanel .buttongrouppanel2 .leftpanel .inputbutton:focus,head[title="Review and Submit"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton:hover,head[title="Review and Submit"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton:focus,head[title*="fen und weiterleiten"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton:hover,head[title*="fen und weiterleiten"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton:focus,head[title*="rifier et soumettre"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton:hover,head[title*="rifier et soumettre"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton:focus,
+head[title*="Granska och skicka"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton:hover,head[title*="Granska och skicka"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton:focus {color: #fff;background-color: #4cbee9;border-color: #4cbee9;}
+
+.mainsection .footeractionpanel .buttongrouppanel2 .leftpanel .inputbutton[id*="saveContinueCmdBottom"],.mainsection .footeractionpanel .buttongrouppanel2 .leftpanel .inputbutton[id*="submitCmdBottom"],.mainsection .footeractionpanel .buttongrouppanel2 .leftpanel .inputbutton[id*="saveContinueCmdBottom"],head[title="Review and Submit"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton[id*="submitCmd"],head[title*="fen und weiterleiten"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton[id*="submitCmd"],head[title*="rifier et soumettre"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton[id*="submitCmd"],
+head[title*="Granska och skicka"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton[id*="submitCmd"]{color: #ffffff;background-color: #00a3e0;float:right;margin:0;}
+
+.mainsection .footeractionpanel .buttongrouppanel2 .leftpanel .inputbutton[id*="saveContinueCmdBottom"]:hover,.mainsection .footeractionpanel .buttongrouppanel2 .leftpanel .inputbutton[id*="saveContinueCmdBottom"]:focus,.mainsection .footeractionpanel .buttongrouppanel2 .leftpanel .inputbutton[id*="submitCmdBottom"]:hover,.mainsection .footeractionpanel .buttongrouppanel2 .leftpanel .inputbutton[id*="submitCmdBottom"]:focus,.mainsection .footeractionpanel .buttongrouppanel2 .leftpanel .inputbutton[id*="saveContinueCmdBottom"]:focus,.mainsection .footeractionpanel .buttongrouppanel2 .leftpanel .inputbutton[id*="saveContinueCmdBottom"]:hover,head[title="Review and Submit"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton[id*="submitCmd"]:hover,head[title="Review and Submit"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton[id*="submitCmd"]:focus,head[title*="fen und weiterleiten"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton[id*="submitCmd"]:hover,head[title*="fen und weiterleiten"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton[id*="submitCmd"]:focus {color: #fff;background-color: #4cbee9;border-color: #4cbee9;}
+
+.mainsection > span.boxtrain {
+    box-shadow: 0 0 0;
+    border: 0;
+}
+.mainsection .boxtraintop {
+    display: none;
+}
+.mainsection .headerpanel {
+    background-color: #f1f2f2;
+    box-shadow: 0 0 0;
+    border: none;
+    padding:0;
+    margin-top:0;
+    height: 80px;
+}
+.mainsection .infopanel {
+    font-size: 19px;
+    padding: 0;
+}
+.mainsection .metapanel {
+    width: 30%;
+    float: right;
+    padding: 0 0 0 10px;
+}
+.mainsection .flowstatus {
+    color: #000000;
+    font-size: 12px;
+}
+.datatrain-table {
+    margin-bottom: 0;
+}
+.mainsection .infojob {
+    color: #333;
+    font-weight: normal;
+    font-size: 19px;
+}
+.mainsection .jobnamelink {
+    color: #000000;
+}
+.mainsection .titlepage {
+    color: #003399;
+    font-size: 20px;
+    font-weight: 600;
+}
+.mainsection .titlepage {margin-bottom:16px;}
+span.datatrain-wrapper.datatrain-wagon-link {
+    width: 100%;
+    overflow: hidden;
+}
+.datatrain-right-shifter,
+.datatrain-left-shifter {
+    width: 11px;
+    text-align: center;
+    padding:8px 0 0 0;
+}
+.datatrain-right-shifter {float:right;}
+.datatrain-right-shifter a,
+.datatrain-left-shifter a {display:block;width:11px;height:23px;}
+.datatrain-right-shifter a {background:url(../images/next-icon.png) no-repeat left center;}
+.datatrain-left-shifter a {background:url(../images/prev-icon.png) no-repeat left center;}
+.datatrain-right-shifter a img,
+.datatrain-left-shifter a img {display:none;}
+.datatrain-left-shifter-image, .datatrain-right-shifter-image {display:none;}
+.datatrain-tv-right-margin,
+.datatrain-tv-left-margin {
+    display: none;
+}
+.headerpanel .datatrain-tv,
+.datatrain-tv {
+    width: 100%;
+    background-color: #fff;
+    max-width: 890px;
+	height:128px;
+	border:none;
+	margin:0 39px;
+	background-color:transparent;
+	overflow:hidden;
+}
+.datatrain-tv ul.datatrain-t {background:none;}
+.datatrain-tv ul.datatrain-t fieldset legend {display:none;width:0;}
+.datatrain-focus {
+    border: none;
+}
+
+.datatrain-focus:after {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid #fff;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.datatrain-t {
+    text-align: center;
+    padding: 0;
+}
+.datatrain-t li {
+    width: 150px;
+    display: inline-block;
+    border:none;
+	position:relative;
+	float:left;
+}
+/* adding the steps text for all countries starts here */
+.datatrain-t li .datatrain-wagon > span span:after {
+    display:inline-block;
+	font-size: 16px;
+	line-height:19px;
+	color:#53565A;
+	text-align:center;
+}
+
+.datatrain-t li .datatrain-focus .datatrain-wagon:before {color:#ffffff;}
+.datatrain-t li .datatrain-focus .datatrain-wagon > span span:after {color: #ffffff;border: 1px solid #00A3E0;background: #00A3E0;}
+.datatrain-t li .datatrain-focus .datatrain-wagon > span span:before {background: #00A3E0;}
+
+.datatrain-t li .datatrain-no-focus .datatrain-wagon > span a span:before {background: #A0DCFF;top:0;}
+.datatrain-t li .datatrain-no-focus .datatrain-wagon > span a span:after {border: 1px solid #A0DCFF;background: #A0DCFF;top:5px;color:#ffffff;z-index: 2;}
+
+
+.datatrain-t li .datatrain-no-focus .datatrain-wagon > span:after {
+	background:#D0D0CE;
+	height:5px;
+	width:100%;
+	content:"";
+	position: absolute;
+    top: 17px;
+    left: 0;
+    right: 0;    
+}
+.datatrain-t li .datatrain-no-focus .datatrain-wagon > span a:after {
+	background:#A0DCFF;
+	height:5px;
+	width:100%;
+	content:"";
+	position: absolute;
+    top: 17px;
+    left: 0;
+    right: 0;
+	z-index: 1;    
+}
+.datatrain-t li .datatrain-focus .datatrain-wagon > span:after {background:#00A3E0;height:5px;
+	width:100%;
+	content:"";
+	position: absolute;
+    top: 17px;
+    left: 0;
+    right: 0;}
+
+/* en starts here */
+.datatrain-t li:nth-child(2) .datatrain-wagon > span span:after {
+    content: "1";
+}
+.datatrain-t li:nth-child(3) .datatrain-wagon > span span:after {
+    content: "2";
+}
+.datatrain-t li:nth-child(4) .datatrain-wagon > span span:after {
+    content: "3";
+}
+.datatrain-t li:nth-child(5) .datatrain-wagon > span span:after {
+    content: "4";
+}
+.datatrain-t li:nth-child(6) .datatrain-wagon > span span:after {
+    content: "5";
+}
+.datatrain-t li:nth-child(7) .datatrain-wagon > span span:after {
+    content: "6";
+}
+.datatrain-t li:nth-child(8) .datatrain-wagon > span span:after {
+    content: "7";
+}
+.datatrain-t li:nth-child(9) .datatrain-wagon > span span:after {
+    content: "8";
+}
+.datatrain-t li:nth-child(10) .datatrain-wagon > span span:after {
+    content: "9";
+}
+.datatrain-t li:nth-child(11) .datatrain-wagon > span span:after {
+    content: "10";
+}
+.datatrain-t li:nth-child(12) .datatrain-wagon > span span:after {
+    content: "11";
+}
+.datatrain-t li:nth-child(13) .datatrain-wagon > span span:after {
+    content: "12";
+}
+.datatrain-t li:nth-child(14) .datatrain-wagon > span span:after {
+    content: "13";
+}
+/* en ends here */
+
+
+
+/* adding the steps text for all countries ends here */
+.datatrain-t fieldset {
+    margin: 0;
+}
+.datatrain-t fieldset li:last-child {
+    border-right: 0;
+}
+.datatrain-t li .datatrain-empty-padder,
+.datatrain-t li .datatrain-focus-right,
+.datatrain-t li .datatrain-focus-left,
+.datatrain-t li .datatrain-no-focus-right,
+.datatrain-t li .datatrain-no-focus-left {
+    display: none;
+	width:0;
+}
+.datatrain-focus {
+    background:none;
+    display: block;
+    width: 100%;
+    height: 128px;
+	padding:0;
+}
+.datatrain-no-focus {
+    height: 130px;
+}
+.datatrain-wagon {
+    border: none;
+    background-color: transparent;
+	text-align:center;
+}
+.datatrain-wagon span {padding:0 0 0 0;top: 0 !important;}
+.datatrain-wagon span a {height:128px;position:relative;top:0;outline:none;} 
+.datatrain-wagon > span {display:block;}
+.datatrain-wagon > span span:before {position:absolute;left:0;top:0;width:39px;height:39px;background:#D0D0CE;border-radius:100%;content:"";margin: 0 auto;right: 0;}
+.datatrain-wagon > span span:after {background: #fff;width: 29px;height: 29px;border-radius: 100%;text-align: center;border: 1px solid #BBBCBC;padding: 4px;z-index:1;position: absolute;content:"";display: inline-block;top:5px;left:0;right:0;margin:0 auto;}
+.datatrain-wagon span span {padding:55px 10px 0 10px;text-align:center;font-size:12px;color:#000000;}
+.datatrain-no-focus,
+.datatrain-no-focus .datatrain-wagon,
+.datatrain-focus .datatrain-wagon {
+    width: 100%;
+    margin: 0;
+	height:128px;
+}
+.datatrain-no-focus .datatrain-wagon,
+.datatrain-no-focus {
+    background: none;
+    display: block;
+	height:128px;
+	padding:0;
+	text-align:center;
+}
+
+html>body .datatrain-no-focus {
+    margin-top: 0;
+}
+.datatrain-t .datatrain-focus .datatrain-wagon span span {color:#00a1de;font-size:14px;}
+.datatrain-wagon * {
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+	line-height:18px;
+    padding: 0;
+    color: #666666;
+}
+.mainsection > span.mastercontentpanel {
+    border-radius: 0;
+    box-shadow: 0 0 0;
+    border: none;
+	padding:30px 40px;
+}
+head[title="NOTICE"] + body #dialogTemplate-dialogForm-masterbody .mainsection > span.mastercontentpanel {border-top: 2px solid #0ca5e0;}
+.mainsection .footeractionpanel {
+    border: none;
+    overflow: hidden;
+    border-radius: none;
+}
+.blockpanel,
+.entity-indent > table {
+    width: 100%;
+    clear: both;
+}
+.blockpanel .textindentpanel table tr td,
+.entity-indent > table tr td.custom-form-columns table tr td.custom-form-columns,
+.blockpanel .sources,
+.entity-indent > table tr td.custom-form-columns {
+    float: left;
+    padding: 0;
+    width: 48%;
+    margin-right: 1%;
+}
+.entity-indent > table tr td.custom-form-columns table tr td.custom-form-columns {width:100%;margin:0;}
+.entity-indent > table tr td.custom-form-columns[colspan] {
+    width: 48%;
+}
+
+html[lang="ko"] .blockpanel .custom-form-grid {width:100%;clear: both;}
+html[lang="ko"] .blockpanel .custom-form-columns {float: left;padding: 0;width: 48%;margin-right: 1%;}
+html[lang="ko"] table tr td.custom-form-columns .entity-block fieldset.entity-value.input-date-time .fs-508-inline {width:46%;}
+html[lang="ko"] table tr .custom-form-columns fieldset select {width:100% !important;}
+html[lang="ko"] table tr td.custom-form-columns .entity-block fieldset.entity-value div > label {margin-bottom: 5px;}
+html[lang="ko"] .blockpanel .custom-form-columns table tr td.custom-form-columns {width:100%;}
+html[lang="ko"] .entity-indent > table tr td.custom-form-columns .entity-block fieldset.entity-value div select {width:100% !important;}
+html[lang="ko"] .blockpanel .custom-form-columns table tr td.custom-form-columns label {width:96%;}
+
+.blockpanel .sources,
+.entity-indent > table tr td.custom-form-columns .entity-block {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+.entity-indent > table tr td.custom-form-columns .entity-block fieldset label[for*="Concentration"] + span {margin: 0;padding: 0;}
+.entity-indent > table tr td.custom-form-columns .entity-block fieldset label[for*="Concentration"] + span input {width:100%;}
+.entity-indent > table tr td.custom-form-columns .entity-block fieldset label[for*="Concentration"] + span a.nav-btn {    color: #ffffff;
+    background: #00a3e0;
+    border: 1px solid #00a3e0;
+    height: 46px;
+    line-height: 19px;
+    font-size: 15px;
+    padding: 12px 16px 11px;
+    margin: 10px 0 0 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    min-width: 126px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;}
+.entity-indent > table tr td.custom-form-columns .entity-block fieldset label[for*="Concentration"] + span a.nav-btn:hover {color: #fff;
+    background-color: #4cbee9;
+    border-color: #4cbee9;}	 
+
+table tr td.custom-form-columns .entity-block {margin: 0 0 24px 0;}
+.entity-indent > table tr td.custom-form-columns .entity-block fieldset > div {margin-bottom:24px;}
+.sources .entity-label {display:inline-block;}
+.sources .entity-label,
+.entity-indent > table tr td.custom-form-columns .entity-block fieldset.entity-value div label,
+.entity-indent > table tr td.custom-form-columns .entity-block .entity-label {line-height:24px;margin-bottom:5px;}
+.entity-indent > table tr td.custom-form-columns .entity-block .entity-label fieldset {display:block;}
+.entity-indent > table tr td.custom-form-columns .entity-block .entity-label .entity-select-action {color: #ffffff;background: #00a3e0;border:1px solid #00a3e0;height: 46px;line-height: 19px;font-size: 15px;padding:12px 16px 11px;margin:10px 0 0 0;border-radius: 4px;-webkit-border-radius: 4px;-moz-border-radius: 4px;min-width:126px;display:inline-block;text-align:center;text-decoration:none;transition: all .3s linear;-webkit-transition: all .3s linear;}
+.entity-indent > table tr td.custom-form-columns .entity-block .entity-label .entity-select-action:hover {color: #fff;background-color: #4cbee9;border-color: #4cbee9;}
+table tr td.custom-form-columns .entity-block .entity-label fieldset {display:block;}
+table tr td.custom-form-columns .entity-block .entity-label .entity-select-action {color: #000;background: #f1f2f2;border:1px solid #979797;height: 46px;line-height: 19px;font-size: 15px;padding:12px 16px 11px;margin:8px 0 0 0;border-radius: 4px;-webkit-border-radius: 4px;-moz-border-radius: 4px;min-width:126px;display:inline-block;text-align:center;text-decoration:none;}
+
+
+html[lang="es"] .entity-indent > table tr td.custom-form-columns .entity-block .entity-label .entity-select-action {height:48px;padding:14px 16px 11px;}
+html[lang="zh_CN"] .entity-indent > table tr td.custom-form-columns .entity-block .entity-label .entity-select-action {height:48px;padding:14px 16px 11px;}
+
+.blockpanel .sources select,
+.entity-indent > table tr td.custom-form-columns .entity-block fieldset.entity-value div select,
+.entity-indent > table tr td.custom-form-columns .entity-block .entity-value {
+    width: 96% !important;
+    display: block;
+    max-width: 100%;
+    padding: 0 10px;
+}
+table tr td.custom-form-columns .entity-block .entity-value {
+    width: 96% !important;
+    display: block;
+    max-width: 100%;
+    padding: 0 10px;
+	margin-bottom:0;
+}
+.blockpanel .sources select,
+.entity-indent > table tr td.custom-form-columns .entity-block fieldset.entity-value div select {padding:0 0 0 10px;}
+.entity-indent > table tr td.custom-form-columns .entity-block fieldset.entity-value[id$="ResidenceLocation"]{width: 100% !important;}
+.entity-indent > table tr td.custom-form-columns .entity-block .entity-value[name$="LastName"] {width: 96% !important;}
+.entity-indent > table tr td.custom-form-columns .entity-block .entity-value.input-radio {
+    width: auto !important;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0;
+}
+.custom-form-columns select,
+.blockpanel .sources select,
+.entity-indent > table tr td.custom-form-columns .entity-block fieldset.entity-value div select {
+    border: 1px solid #d2d4cd;
+    height: 50px;
+    border-radius: 0;
+    width: 96% !important;
+}
+.entity-indent > table tr td.custom-form-columns .entity-block fieldset.input-date-time {}
+.custom-form-columns select[id$="UDFCandidatePersonalInfo_Alumni"] {width: 100% !important;}
+.custom-form-columns select[id$="candidate_personal_info_UDFCandidatePersonalInfo_Alumni"] {width: 96% !important;}
+.entity-indent > table tr td.custom-form-columns .entity-block fieldset.entity-value div select[id*="education_OtherInstitutionLocation"],.entity-indent > table tr td.custom-form-columns .entity-block fieldset.entity-value div select[id*="certification_location"],.custom-form-columns select[id*="reference_relationshipLength"] {width:100% !important;}
+
+/*.entity-indent > table tr td.custom-form-columns .entity-block .entity-value[name*="basicprofile_Salary"],.entity-indent > table tr td.custom-form-columns .entity-block  select[name*="basicprofile_Currency"] {width:100% !important;}*/
+
+html[lang="de"] .entity-indent > table tr td.custom-form-columns .entity-block .entity-value[name*="basicprofile_Salary"],html[lang="de"] .entity-indent > table tr td.custom-form-columns .entity-block  select[name*="basicprofile_Currency"]{width: 96% !important;}
+.entity-indent > table tr td.custom-form-columns .entity-block fieldset.entity-value div select[id*="education_startDate"],.entity-indent > table tr td.custom-form-columns .entity-block fieldset.entity-value div select[id*="education_graduationDate"] {width:100% !important;}
+td.columnfull .textindentpanel textarea {width:100%;}
+.blockpanel .contentpanel .inputtextmulti2 {width:100%;}
+.entity-indent > table tr td.custom-form-columns .entity-block fieldset.entity-value div select[id*="basicprofile_AvailabilityDate"] {width:100% !important;}
+.blockpanel .labelcontent select[id*="jobfield_selector"],.blockpanel .labelcontent select[id*="location_selector"],.blockpanel .labelcontent select[id*="organization_selector"] {height:50px;}
+.entity-indent > table tr td.custom-form-columns .entity-block fieldset.entity-value div select[id*="certification_dateReceived"],.entity-indent > table tr td.custom-form-columns .entity-block fieldset.entity-value div select[id*="certification_expirationDate"] {width:50% !important;}
+
+head[title="Certifications"] + body .entity-indent > table tr td.custom-form-columns .entity-block fieldset.entity-value div select[id*="certification_dateReceived"],
+head[title="Certifications"] + body .entity-indent > table tr td.custom-form-columns .entity-block fieldset.entity-value div select[id*="certification_expirationDate"] {width:100% !important;}
+
+.blockpanel .sources {width:46%;}
+.entity-indent > table tr td.custom-form-columns table tr td.custom-form-columns .entity-block fieldset.entity-value,
+.entity-indent > table tr td.custom-form-columns .entity-block fieldset.entity-value {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.mainsection .captionleft {margin:24px 0 24px 0;}
+.entity-indent > table tr td.custom-form-columns table tr td.custom-form-columns .entity-block fieldset.entity-value .fs-508-inline {
+    width: 50%;
+    float: left;
+}
+.entity-indent > table tr td.custom-form-columns table tr td.custom-form-columns .entity-block fieldset.entity-value.input-date-time .fs-508-inline {
+    width: 47%;
+	margin:0;
+}
+.entity-indent > table tr td.custom-form-columns table tr td.custom-form-columns .entity-block fieldset.entity-value.input-date-time legend + .fs-508-inline {
+	margin:0 6% 0 0;
+}
+.entity-indent > table tr td.custom-form-columns table tr td.custom-form-columns .entity-block fieldset.entity-value.input-date-time .fs-508-inline select {width:100% !important;}
+
+/* for china language portal */
+table tr td.custom-form-columns table tr td.custom-form-columns .entity-block fieldset.entity-value,table tr td.custom-form-columns .entity-block fieldset.entity-value {border: 0;padding: 0;margin: 0;}
+table tr td.custom-form-columns .entity-block fieldset.entity-value.input-date-time .fs-508-inline {
+    width: 47%;
+	margin:0;
+	float: left;
+}
+table tr td.custom-form-columns .entity-block fieldset.entity-value.input-date-time legend + .fs-508-inline {
+	margin:0 6% 0 0;
+}
+table tr td.custom-form-columns .entity-block fieldset.entity-value.input-date-time .fs-508-inline select {width:100% !important;}
+
+/* for china language portal */
+
+textarea {
+    resize: none;
+    border: 1px solid #dedede;
+}
+.blockpanel .no-change-header .title,
+.blockpanel .no-change-header {
+    color: #002776;
+    font-size: 26px;
+    font-weight: 300;
+}
+.custom-form-columns table {
+    width: 100%;
+}
+.blockpanel .textindentpanel {
+    padding: 0;
+    margin: 0;
+}
+.mainsection .textindentpanel .inputtext300,
+.blockpanel .textindentpanel table {
+    width: 100%;
+}
+.mainsection .inputtext,
+.mainsection .inputselect,
+.myaccount .inputtext300,
+.mainsection .inputtext300,
+.myaccount .inputtextmulti,
+.mainsection .inputtextmulti,
+.mainsection .inputtextmulti2,
+.jobsearch .inputtext,
+.jobsearch .savepanel .inputtext,
+.jobsearch .resultpropertiescontentpanel .inputselect,
+.mainsection .searchresults .sortbypanel .inputselect,
+.mainsection .listingperpagepanel .inputselect,
+.mainsection .inputtextmulti3,
+.blockpanel .input-textarea,
+.blockpanel .input-text,
+.blockpanel .input-smaller input,
+.blockpanel .input-select,
+.blockpanel .input-date-time select,
+.blockpanel .sugInput-input,
+.blockpanel .entity-value select {
+    font-size: 14px;
+}
+.mainsection .label,
+.blockpanel .entity-label,
+.menuHierarchy label,
+.entity-checkbox-label,
+.summary .label,
+.myaccount .label,
+.mainsection .label,
+.accessmanagement .entity-label-mandatory,
+.mainsection .searchresults .label,
+.mainsection .myjobpage .label,
+.mainsection .pagerpanel .pagersectionpanel .pagerlabel,
+.jobsearch .labelcontent,
+.jobsearch .contentdatapanel .searchLookup,
+.jobsearch .label,
+.jobsearch .savepanel .label,
+.jobsearch .resultpropertiescontentpanel .label,
+.myaccount .entity-instruction,
+.myaccount .text,
+.skillsgrouppanel .labelcontent,
+.messagecenter .entity-label,
+.messagecenter .column-header-value {
+    font-size: 14px;
+	color:#000000;
+	font-weight: 600;
+}
+.mainsection .pagerpanel .pagersectionpanel .pagerlabel {font-weight: normal;}
+.mainsection .metalink2 a,
+.mainsection .pagerpanel .pagersectionpanel .pagerlink a,
+.blockpanel .loc-action-btn a,
+.mainsection .textlink a,
+.myaccount .metalink2 a,
+.accessmanagement .link-small a,
+.blockpanel .list .listpanel .metalink2 a,
+.footersection .poweredbytaleolink a,
+.messagecenter .toolbar a,
+.messagecenter .list-column a,
+.alert-button-panel a,
+.messagecenter .section-name a {
+    color: #00a1de;
+}
+.mainsection .inputselect[id$="selectOneMenu_language"] {width:280px;height:40px;padding:5px 15px;border:1px solid #d2d4cd;}
+.mainsection .inputselect {height:50px;}
+.blockpanel .entity-label {margin-bottom:5px;}
+table.attachment-list.empty-list {
+    width: 100%;
+}
+table.attachment-list.empty-list thead {
+    border: 1px solid #dedede;
+}
+.mainsection .inputtextgrouppanel .inputtextmulti2 {
+    width: 100%;
+}
+.partner-options.import {
+    border-bottom: none;
+    margin-bottom: 0
+}
+.partner-options.import fieldset.fs-508 {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+.partner-options.import fieldset.fs-508 span.fs-508-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+.partner-options.import fieldset.fs-508 span.fs-508-block label.fs-508-label {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.partner-options.import fieldset.fs-508+img {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+/* Summary */
+
+.custom-form-columns select[multiple="multiple"] {
+    height: 60px;
+}
+td.columnfull .blockpanel {
+    border: none;
+    padding: 0;
+    display: table;
+    width: 100%;
+    margin-bottom: 16px;
+	margin-top:24px;
+}
+td.columnfull .blockpanel .headerblockpanel {
+    background-color: #fff;
+    border-bottom: 1px solid #dedede;
+}
+td.columnfull .blockpanel .headerblockpanel h2.no-change-header {
+    font-size: 26px;
+    font-weight: 300;
+}
+td.columnfull .blockpanel .headerblockpanel h2.no-change-header .titleblock {
+    font-size: 26px;
+    font-weight: normal;
+    color: #003399;
+}
+td.columnfull .blockpanel .headerblockpanel .separator {} td.columnfull .blockpanel .headerblockpanel .metalink2 {} td.columnfull .blockpanel .groupcontentpanel {} .groupcontentpanel .contentblockpanel {} .groupcontentpanel .contentblockpanel .subtitleblockpanel {} .groupcontentpanel .contentblockpanel .subtitleblockpanel h3.no-change-header {} .groupcontentpanel .contentblockpanel .subtitleblockpanel h3.no-change-header .subtitleblock {
+    font-size: 16px;
+    color: #000000;
+}
+
+html[lang="sv"] .groupcontentpanel .contentblockpanel .subtitleblockpanel h3.no-change-header .subtitleblock,html[lang="sv"] .olflist .listpanel .listcontentpanel span.text,html[lang="sv"] .olflist .listpanel h3.no-change-header span {word-break: break-word;}
+
+.summary .contentblockpanel .nolabelvaluepanel {
+    margin: 0 15px 0 25px;
+}
+.no-change-header {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4em;
+}
+
+form[action*="jobdetail"] h1.no-change-header {display:none;}
+form[action*="jobdetail"] h1.no-change-header span.subtitle {color:#000000;}
+form[action*="jobdetail"] h2.no-change-header-inline span.subtitle {color:#000000;font-weight:bold !important;font-size: 14px;}
+form[action*="jobdetail"] h2.no-change-header-inline u {text-decoration:none;}
+form[action*="jobdetail"] h2 u,form[action*="jobdetail"] h3 u,form[action*="jobdetail"] h4 u {text-decoration:none;}
+form[action*="jobdetail"] .mainsection .tablelist {margin-top:0;}
+form[action*="jobdetail"] h2.no-change-header-inline:after {content:": ";font-size: 14px;line-height: 22px;}
+
+.myaccount .subtitle,
+.summary .subtitle,
+.myaccount .titleblock,
+.summary .titleblock {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #666666;
+    font-style: normal;
+    text-decoration: none;
+}
+.myaccount .titleblock {
+    font-size: 18px;
+    line-height: 20px;
+}
+.myaccount .title,
+.myaccount .titleaction,
+.mainsection .titlepage {
+    color: #000000;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 28px;
+	text-transform: capitalize;
+}
+.myaccount .descriptionpanel {
+    font-size: 16px;
+    line-height: 18px;
+}
+.myaccount .tablelist td.columnfull .blockpanel {
+    padding: 0 0 10px 0;
+}
+.blockpanel .no-change-header .title,
+.blockpanel .no-change-header {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+}
+.blockpanel h2.no-change-header {background-color:#f4f4f4;}
+.blockpanel h2.no-change-header span {padding: 5px 10px;margin-bottom:24px;}
+.blockpanel a[name="startOfList"] {text-decoration:none;}
+.blockpanel a[name="startOfList"]:hover {text-decoration:none;}
+.blockpanel .descriptionpanel h2.no-change-header {background:none;font-size:14px;font-weight:600;padding:0 0 0 10px;}
+.blockpanel .descriptionpanel h2.no-change-header span {padding:0;font-size:14px;font-weight:600;}
+.blockpanel fieldset .legend-pos {padding:0 0 0 0;margin-left: -5px;margin-bottom:16px;}
+.blockpanel fieldset legend {margin-bottom:5px;}
+td.columnfull .blockpanel .descriptionpanel .text {
+    font-size: 14px;
+	color: #666;
+	line-height:20px;
+}
+td.columnfull .blockpanel a[name="startOfList"] + .descriptionpanel .text .entity-value {display:block;}
+td.columnfull .blockpanel .text {
+    font-size: 14px;
+}
+.blockpanel .no-change-header .subtitle label {
+    font-size: 14px;
+}
+select {border-radius:0;padding:0 0 0 10px;border:1px solid #d2d4cd;-webkit-border-radius:0;-moz-border-radius:0;}
+#selectorSubView-selectorSubView-selectorForm-mainsection {border-top: 2px solid #0ca5e0;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .buttonpanel:nth-child(3n) {display:none;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel table.tablelist td.columnfull h1.no-change-header {margin-bottom:16px;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .message-error {margin-bottom:10px;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel {border:none;padding: 30px 40px 30px 40px;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .buttonpanel input[value="Cancel"] {color: #00a3e0;background: #fff;border: 1px solid #00a3e0;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .buttonpanel input[value="Cancel"]:hover,#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .buttonpanel input[value="Cancel"]:focus{color: #fff;background-color: #4cbee9;border-color: #4cbee9;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .buttonpanel:first-child {display:none;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .tablelist {margin:0;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .tablelist td.columnfull .titlelinkoff {margin:0;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .filter {margin: 20px 0 4px 0;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .filter select {height:50px;width:200px;border-radius: 0;margin-right: 16px;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .filter input {margin-right:16px;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .entity-label {font-size:14px;line-height:16px;display:block;margin:0 0 5px 0;font-weight:600;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .list-structure {margin:20px 0 0 0;font-size: 14px;line-height: 16px;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .list-structure .list {margin-bottom:10px;border: 1px solid #eee;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .list-structure .list .list-header .column-header {display: inline-block;padding: 4px 0;font-size: 16px;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .list-structure .section-name {display:none;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .list-structure .pager,#selectorSubView-selectorSubView-selectorForm-mainsection .list-structure .pager a,#selectorSubView-selectorSubView-selectorForm-mainsection .pager .pager-summary {font-size: 14px;line-height: 16px;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .list-structure table .list-evenrows .list-column,#selectorSubView-selectorSubView-selectorForm-mainsection .list-structure table .list-oddrows .list-column,#selectorSubView-selectorSubView-selectorForm-mainsection .list-structure table.list .select-column {padding:7px 5px;border-top: 1px solid #eee;border-bottom: none;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .list-structure table tr:first-child td {border:none !important;}
+#selectorSubView-selectorSubView-selectorForm-mainsection  table.tablelist > tbody,#selectorSubView-selectorSubView-selectorForm-mainsection table.tablelist > tr,#selectorSubView-selectorSubView-selectorForm-mainsection table.tablelist tr > td.columnfull {display:block;padding-right:0;}
+#selectorSubView-selectorSubView-selectorForm-mainsection table.list td label span,#selectorSubView-selectorSubView-selectorForm-mainsection table.list td span {font-size:14px;line-height:18px;}
+#selectorSubView-selectorSubView-selectorForm-mainsection table.tablelist td.columnfull .pager #pagerSummary .pager-button-group {font-size:14px;}
+#selectorSubView-selectorSubView-selectorForm-mainsection table.tablelist td.columnfull .pager {float:none;margin-bottom:12px;}
+.myaccount .tablelist .columnfull {
+    border-collapse: collapse;
+}
+.summary .label,
+.myaccount .label {
+    color: #666666;
+    font-size: 14px;
+    line-height: 22px;
+	font-weight:normal;
+}
+td.columnfull .blockpanel .headerblockpanel h2.no-change-header {
+    font-size: 16px;
+    color: #003399;
+}
+.summary td.columnfull .blockpanel .headerblockpanel h2.no-change-header {display:inline-block !important;vertical-align:middle;}
+td.columnfull .blockpanel .headerblockpanel h2.no-change-header .titleblock {
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+}
+.summary td.columnfull .blockpanel .headerblockpanel {padding:6px 0;}
+html>body .headersection .headerpanel .linkpanel .selectedlink {
+    color: #666666;
+    border: 1px solid #666666;
+    background-color: #ffffff;
+    padding: 3px 8px 5px 8px;
+    height: 34px;
+}
+html>body .headersection .headerpanel .linkpanel .selectedlink span {
+    color: #666666;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+    padding: 0 5px;
+}
+html>body .headersection {display: block;padding:0;}
+.blockpanel .list .listpanel .titlelinkoff,
+.olflist .listpanel .titlelinkoff,
+.mainsection .titlelinkoff {
+    font-weight: normal;
+    clear: both;
+    display: block;
+    margin: 20px 0 0 0;
+}
+.headersection .headerpanel .userpanel .separator {
+    margin: 0 10px 0 8px;
+}
+.olflist .listpanel {
+    border-top: 1px solid #eeeeee;
+    margin:0;
+	padding:16px 60px 16px 0;
+    width: auto;
+	position:relative;
+}
+.olflist .listpanel:nth-child(2) {border:none;}
+.olflist .listpanel .listcontentpanel span.text {font-size:12px;font-weight:400;color:#333333;}
+.olflist .listpanel span.titlelinkoff {margin:0;color: #00a1de;font-size: 18px;line-height: 22px;}
+.olflist .listpanel .metalink2 {position:absolute;right:0;top:35%;}
+.olflist .listpanel .metalink2 a {color: #00a3e0;
+    background: #fff;text-decoration:none;transition: all .3s linear;
+    -webkit-transition: all .3s linear;border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border: 1px solid #00a3e0;padding: 2px 5px;
+    text-align: center;}
+.olflist .listpanel .metalink2 a:hover {color: #fff;
+    background-color: #4cbee9;
+    border-color: #4cbee9;}
+
+.headersection .link2panel .selectedlink2 {
+    display: inline-block;
+    padding: 7px 20px 7px 20px;
+	background-color:#3f3f3f;
+	border:none;
+}
+.jobsearch .contentlist tr.ftlrow td .jobcontentpanel span[id*="addthisButton"] {display:none;}
+.jobsearch .contentlist tr.ftlrow td .jobcontentpanel .separator {display:none !important;}
+.languageSelectInterface {padding:40px 20px 0 0;margin:0;}
+.headersection .link2panel .separatorlink2 {
+    color: #ffffff;
+}
+.headersection .link2panel .link2 a {
+    color: #fff;
+    font-size: 14px;
+	line-height:16px;
+}
+ul#tabs li {
+    padding: 4px 0 4px 0;
+    height: 34px;
+}
+ul#tabs li a {
+    padding: 4px 16px 4px 16px;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.jobsearch .titlemetapanel1 {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+.no-change-header-inline {
+    font-size: 0.9em;
+}
+.mainsection .descriptionpanel {
+    margin: 0 0 24px 0;
+}
+.mainsection span.blockpanel .descriptionpanel {
+    margin:0 0 24px 0;
+}
+.jobsearch .column {
+    width: 65%;
+}
+.mainsection .descriptionpanel .metalink2 a {
+    font-size: 1em;
+}
+.headersection .link2panel .link2 a:hover {
+    background: none;
+}
+.mainsection .descriptionpanel .titlemetapanel span {
+    font-size: 14px;
+}
+.mainsection .myjobpage .resultstitlepanel .subtitle {
+    font-size: 20px;
+    font-weight: 600;
+}
+.mainsection .myjobpage .descriptionpanel .text {
+    font-size: 16px;
+}
+.mainsection .myjobpage .statuspanel .text {
+    font-size: 20px;
+    font-weight: 600;
+}
+.mainsection .jobtitlepanel .titlelink a {
+    font-size: 18px;
+    font-weight: 600;
+}
+.mainsection .myjobpage .jobcontentpanel .text {
+    font-size: 16px;
+}
+.mainsection .jobposted,
+.mainsection .jobpostedinline {
+    font-size: 16px;
+}
+.mainsection .textlink a {
+    font-size: 16px;
+}
+.jobsearch .label {
+    font-size: 1em;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    color: #666666;
+	margin-bottom: 3px;
+    display: inline-block;
+}
+.grouppanel .separatorpanel {
+    margin-bottom: 10px;
+    display: block;
+}
+.jobsearch .linklabel {
+    font-size: 0.9em;
+}
+.jobsearch .linkpanel {
+    border-width: 0;
+}
+.headersection .headerpanel .linkpanel {padding:0;margin:0;}
+.headersection .headerpanel .linkpanel li[id$="tabJS"],.headersection .headerpanel .linkpanel li[id="jobSearchTabActionS"] {display:none;}
+.mainsection .iconpanelupdated,
+.mainsection .iconcontentpanelupdated,
+.headersection .link2panel,
+.mainsection .myjobpage .messagenotepanel,
+.alert-message-notification,
+.shiftavailability .allshiftpanel,
+.shiftavailability .alldaypanel,
+.myaccount .headerblockpanel,
+.summary .headerblockpanel,
+.jobsearch .linkpanel,
+.jobsearch .boxpanelb2-top,
+.jobsearch .boxpanelb3-top,
+.jobsearch .boxpanelb4-top,
+.processesNotSelectedTaskItem td,
+.processes-table-link {
+    background-color: #0099cc;
+}
+.headerpanel .datatrain-t,
+.headerpanel .datatrain-tv,
+.headerpanel .datatrain-tv-left-margin,
+.headerpanel .datatrain-tv-right-margin, {
+    background-color: #f3f3f3;
+}
+html>body .headersection .link2panel .selectedlink2 {border-color: #fff;}
+.headersection .link2panel {background-color: #000000;display:none !important;}
+.headersection .link2panel .selectedlink2 a,
+.headersection .link2panel .selectedlink2 span {
+    font-size: 14px;
+    font-weight: normal;
+	line-height:16px;
+	color:#ffffff;
+}
+.mainsection .iconcontentpanelupdated {
+    background-color: #f2f2f2;
+}
+.mainsection .iconpanelupdated {
+    background-color: #f2f2f2;
+}
+.mainsection .jobupdated {
+    color: #003399;
+}
+.mainsection .iconpanelupdated,
+.mainsection .iconcontentpanelupdated {
+    border: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.mainsection .column165, .messagecenter .column165 {display:none;}
+.column165 .helppanel .helptitle {
+    font-size: 14px;
+    line-height: 20px;
+}
+.column165 .helppanel .helplabel {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 2px;
+}
+.column165 .helppanel .no-change-header {
+    font-size: 0.9em;
+}
+.mainsection .searchresults .listingperpagepanel label {
+    font-size: 14px;
+    display:inline-block !important;
+	padding:0 6px 0 0 !important;
+}
+.mainsection .searchresults .listingperpagepanel select {
+    font-size: 14px;
+	height:46px;
+	width:235px;
+}
+.mainsection .searchresults .listingperpagepanel {
+    margin-bottom: 24px;
+	float: left;
+	margin-right:24px;
+}
+.mainsection .searchresults .sortbypanel label {
+    font-size: 14px;
+    display:inline-block !important;
+	padding:0 6px 0 0 !important;
+}
+.mainsection .searchresults .sortbypanel select.inputselect {
+    font-size: 14px;
+	height:46px;
+	width:235px;
+}
+.mainsection .searchresults .sortbypanel {
+    margin-bottom: 24px;
+}
+.mainsection .titlelink a,
+.jobsearch .titlelink a {
+    font-size: 18px;
+	line-height:22px;
+    color: #00a1de;
+	font-weight:normal;
+}
+.mainsection .text,
+.jobsearch .text,
+.mainsection .searchresults .text,
+.mainsection .text,
+.mainsection .morelocation a 
+{
+    font-size: 12px;
+}
+.mainsection .jobtype,
+.mainsection .jobposted {
+    font-size: 12px;
+}
+.mainsection .jobcontentpanel .metalink2 a {
+    font-size: 12px;
+}
+.mainsection .text {font-size:14px;line-height:20px;}
+.jobsearch .labelcontent {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.jobsearch .ftlmulti {
+    margin: 5px 0 0 0;
+}
+.jobsearch .ftlmulti select {
+    font-size: 15px;
+}
+.jobsearch .addjobfieldaction span {
+    font-size: 1.0em;
+}
+.mainsection .subtitle,
+.blockpanel .title,
+.blockpanel .list-header .subtitle,
+.blockpanel .entity-title,
+.myaccount .subtitleblock,
+.summary .subtitleblock,
+.shiftavailability .titlesection,
+.alert-title,
+.mainsection .searchresults .resultstitlepanel .subtitle,
+.mainsection .myjobpage .resultstitlepanel .subtitle,
+.jobsearch .subtitle,
+.jobsearch .savetitlepanel .subtitle,
+.olflist .listpanel .subtitle,
+.messagecenter .page-header-title
+{
+	font-size: 18px;
+	line-height:22px;
+	font-weight:normal;
+}
+
+.blockpanel .entity-value, .blockpanel .entity-value select, .summary .value, .myaccount .value {font-size:14px;max-width:inherit;margin-bottom:24px;display:inline-block;}
+.summary .value, .myaccount .value {display:block;margin-bottom:5px;}
+.myaccount .subtitleblockpanel, .summary .subtitleblockpanel {padding-bottom:16px;}
+
+/* Footer Block */
+
+#footer-section {
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
+    z-index: 999
+}
+.footer-wrapper {
+    max-width: 1400px;
+    margin: 0 auto
+}
+.footer-container {
+    padding: 25px 2% 30px
+}
+.footerlinks {
+    overflow: hidden;
+}
+#footer-section div.footer-column {
+    padding-left: 2%;
+    float: left;
+    width: 18%
+}
+#footer-section div.footer-column.legal {
+    float: right
+}
+#footer-section div.footer-column .tertiary-headline {
+    font-weight: 400;
+    color: #333;
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+.footeraction .footeractionpanel .footergroupactionpanel .metalink2 a {
+    font-size: 16px;
+    color: #003399;
+}
+.footeraction .footeractionpanel .rightpanel {padding: 5px 0 0 0;clear: both;display: table;width: 100%;}
+
+#footer-section div.footer-column.first {
+    padding-left: 0
+}
+#footer-section ul.footer-col {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+#footer-section ul.footer-col li {
+    margin: 0 0 10px 0
+}
+#footer-section ul.footer-col li a {
+    color: #00a1de;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+}
+#footer-section div.footer-column.first li.footer-contact-us {
+    font-weight: 700
+}
+.disclaimer-text {
+    padding: 2%;
+    width: 96%;
+}
+.disclaimer-text p {
+    margin: 0;
+    font-size: 12px;
+}
+.small-body-copy {
+    color: #333;
+    font-size: 11px;
+    font-weight: 400;
+}
+.social-tab {
+    box-sizing: border-box;
+    height: auto;
+    overflow: hidden;
+    padding: 0 2% 0;
+    width: 100%;
+}
+.policy {
+    display: none;
+}
+.build-text {
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 0 2% 1%;
+}
+.social-media-links ul {
+    padding: 0;
+}
+.social-media-links ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 .5em 1em 0;
+}
+.social-media-links ul li a {
+    background-color: #9a9a9a;
+    border-radius: 6px;
+    color: #fff;
+    display: table-cell;
+    font-size: 18px;
+    height: 32px;
+    text-align: center;
+    vertical-align: middle;
+    width: 32px;
+}
+.social-media-links ul li.facebook:hover a {
+    background-color: #3b5998;
+}
+.social-media-links ul li.linkedIn:hover a {
+    background-color: #007bb6;
+}
+.social-media-links ul li.twitter:hover a {
+    background-color: #00aced;
+}
+.social-media-links ul li.googleplus:hover a {
+    background-color: #dd4b39;
+}
+.social-media-links ul li.youtube:hover a {
+    background-color: #b00;
+}
+.social-media-links ul li.rss:hover a {
+    background-color: #FFAC12;
+}
+.blockpanel .contentpanel .inputtextmulti2 {-webkit-appearance: none;}
+.blockpanel .sources select {width:100% !important;}
+/* End Footer Block */
+
+/* alert frames starts here */
+
+.alert-frame {background: #ececec;border-top:2px solid #0ca5e0;}
+.alert-frame .alert-message-notification {background: #ffffff;padding:20px;text-align:center;border: none;}
+.alert-frame .alert-message-notification .alert-type-warning {color:#000000;font-size:16px;font-weight:600;line-height:22px;}
+.alert-frame .alert-message-notification .alert-title {color:#000000;font-size:14px;font-weight:600;line-height:20px;}
+.alert-frame .alert-message-notification .alert-text {color:#000000;font-size:14px;font-weight:600;line-height:20px;}
+.alert-frame .alert-button-panel input {background-color: #00a3e0;transition: all .3s linear;-webkit-transition: all .3s linear;color: #ffffff;display: inline-block;height: 36px;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;font-weight: normal;line-height: 19px;position: relative;text-align: center;padding: 0 15px;border: none;
+    margin: 0 2px;cursor: pointer;font-size: 15px;
+	min-width:100px;}
+.alert-frame .alert-button-panel input:hover,.alert-frame .alert-button-panel input:focus {background-color: #4cbee9;} 	
+.mainsection .columnfull {padding-right:0;display:block;}
+.mainsection .tablelist > tbody,.mainsection .tablelist > tbody > tr {display:block;}
+.blockpanel .attachment-list {width:100%;}
+.blockpanel .attachment-list th.list-header {width:25%;white-space: inherit;}
+.blockpanel table.list {width:100%;}
+.blockpanel table.list th.list-header {width:25%;white-space: inherit;}
+html[lang="zh_CN"] .blockpanel table.list th.list-header {width:20%;}
+html[lang="zh_CN"] .blockpanel .attachment-list th.list-header {width:19%;}
+.myaccount .subtitleblockpanel, .summary .subtitleblockpanel {margin:8px 0 0 0;padding-left:12px;padding-right:12px;}
+.entity-indent > table tr td.custom-form-columns .entity-block .entity-label[for*="candidate_personal_info_SocialSecurityNumber"] {max-width:96%;}
+.messageerrorpanel, .message-error {background-color:#D0D0CE;}
+.entity-indent > table tr td.custom-form-columns span fieldset[id*="candidate_personal_info_ResidenceLocation"] legend {width:90%;margin-bottom:24px;}
+table tr td.custom-form-columns span fieldset.input-hier legend,table tr td.custom-form-columns span fieldset.menuHierarchy legend {margin-bottom:24px;}
+.sources select[id*="recruitmentSourceType"] {margin-bottom:24px;}
+
+html[lang="zh_CN"] .blockpanel .legend-pos + div > .custom-form-grid {width: 100%;}
+html[lang="zh_CN"] .blockpanel .legend-pos + div > .custom-form-grid td.custom-form-columns {width:48%;float: left;padding: 0;margin-right: 1%;}
+
+.mainsection .headerpanel .buttonpanel-container .on-the-left {width:100%;}
+.mainsection .headerpanel .buttonpanel-container .on-the-right {margin:5px 0 0 0;display:inline-block;}
+
+
+td.columnfull .blockpanel .action-bar .separator {display:none;}
+td.columnfull .blockpanel .action-bar a {transition: all .3s linear;-webkit-transition: all .3s linear;height: 46px;line-height: 42px;font-size: 15px;padding: 0 16px;margin: 0 16px 0 0;border-radius: 4px;-webkit-border-radius: 4px;-moz-border-radius: 4px;min-width: 126px;-webkit-appearance: none;display: inline-block;text-decoration: none;text-align: center;}
+td.columnfull .blockpanel .action-bar a[id*="ProfilerLink"] {color: #00a3e0;background: #fff;border: 1px solid #00a3e0;}
+td.columnfull .blockpanel .action-bar a[id*="ProfilerLink"]:hover,td.columnfull .blockpanel .action-bar a[id*="ProfilerLink"]:focus {color: #fff;background-color: #4cbee9;border-color: #4cbee9;}
+td.columnfull .blockpanel .action-bar a[id*="JobListLink"],td.columnfull .blockpanel .action-bar a[id*="jobListLink"] {color: #ffffff;background-color: #00a3e0;border: 1px solid #00a3e0;}
+td.columnfull .blockpanel .action-bar a[id*="JobListLink"]:hover,td.columnfull .blockpanel .action-bar a[id*="JobListLink"]:focus,td.columnfull .blockpanel .action-bar a[id*="jobListLink"]:hover,td.columnfull .blockpanel .action-bar a[id*="jobListLink"]:focus {background-color: #4cbee9;border-color: #4cbee9;}
+
+/* alert frames ends here */
+
+@media (max-width: 990px){
+    /* Datatrain css starts here */
+	span.datatrain-wrapper.datatrain-wagon-link {width: 670px;}
+	.headerpanel .datatrain-tv, .datatrain-tv {width:600px;margin:0 24px;}
+	.datatrain-right-shifter {float:right;}
+	.datatrain-t li {width: 150px;float: left;}
+	.datatrain-t li .datatrain-wagon:before {font-size: 13px;}
+	.datatrain-wagon * {font-size: 12px;}
+	html>body .headersection {padding:0 20px;}
+	.headersection .headerpanel {padding: 20px 0 10px 0;max-width:670px;margin:0 auto;}
+	.mainsection .headerpanel .infopanel {padding:0;max-width:670px;margin:0 auto;float:none !important;}
+	.mainsection .metapanel {padding: 0;max-width: 670px;margin: 0 auto 16px;float: none;width: 100%;}
+	.mainsection > span.mastercontentpanel {padding:30px 25px;}
+	html[lang="de"] .datatrain-t fieldset li:nth-child(2) span span {padding: 30px 10px 0 30px;font-size: 11px;}
+	html[lang="fr"] .datatrain-t fieldset li:nth-child(2) span span {padding: 30px 10px 0 30px;font-size: 11px;}
+	.mainsection > span.footeraction {padding:36px 25px 34px 25px;}
+	head[title="Review and Submit"] + body .mainsection .headerpanel .buttonpanel-container, head[title*="und weiterleiten"] + body .mainsection .headerpanel .buttonpanel-container, head[title*="rifier et soumettre"] + body .mainsection .headerpanel .buttonpanel-container, head[title*="Granska och skicka"] + body .mainsection .headerpanel .buttonpanel-container {padding:36px 25px 34px 25px;}
+	.mainsection .headerpanel .buttonpanel-container {padding: 36px 25px 34px 25px;}
+	.mainsection > span.footeraction + .metapanel2 {margin: 0 25px 20px;}
+	.jobsearch .contentlist tr.ftlrow td .iconcontentpanel .editablesection,html[lang="es"] .jobsearch .contentlist tr.ftlrow td .iconcontentpanel .editablesection {padding:0;width:100%;}
+	
+	.jobsearch .contentlist tr.ftlrow td .metalink2 {position:static;margin-top:10px;display:inline-block;}
+		
+	/* Datatrain css ends here */
+}
+@media (max-width: 760px){
+	span.datatrain-wrapper.datatrain-wagon-link {width: 668px;}
+	.headerpanel .datatrain-tv, .datatrain-tv {width:598px;}
+}
+
+@media (max-width: 740px){
+
+/* common, header, and login blocks css starts here */
+.wrapper {margin:0 2%;width:auto;}
+.mainsection > span.mastercontentpanel {padding: 10px;}
+.blockpanel .textindentpanel table tr td, .entity-indent > table tr td.custom-form-columns table tr td.custom-form-columns, .blockpanel .sources, .entity-indent > table tr td.custom-form-columns {width: 100%;margin-right:0;}
+.blockpanel .sources select, .entity-indent > table tr td.custom-form-columns .entity-block fieldset.entity-value div select, .entity-indent > table tr td.custom-form-columns .entity-block .entity-value {width:100% !important;}
+.entity-indent > table tr td.custom-form-columns[colspan] {width: 100%;}
+.entity-indent > table tr td.custom-form-columns .entity-block .entity-value[name$="LastName"] {width: 100% !important;}
+.custom-form-columns select, .blockpanel .sources select, .entity-indent > table tr td.custom-form-columns .entity-block fieldset.entity-value div select {width:100% !important;}
+.mainsection .searchresults .listingperpagepanel .label,.mainsection .searchresults .sortbypanel .label{width: 160px;text-align:right;}
+.mainsection .searchresults .listingperpagepanel .inputselect,.mainsection .searchresults .sortbypanel select.inputselect {width:135px;}
+.headersection .headerpanel {padding: 16px 0 16px 0;}
+.headersection .headerpanel .userpanel {width:60%;margin:0 0 0 14px;}
+html[lang="es"] .headersection .headerpanel .userpanel {width:55%;}
+.headersection .headerpanel .rightpanel {float: right;width: 28%;word-break:break-word;margin:0 14px 0 0;}
+html[lang="es"] .headersection .headerpanel .rightpanel {width: 33%;}
+.headersection .headerpanel .userpanel [id$="isMyAccountDisplayed"] .separator {display:none;}
+.headersection .headerpanel .userpanel .separator {display:none;}
+.headersection .headerpanel .userpanel span {display:block;}
+.mainsection .jobsearch {padding:10px 10px 10px 10px;}
+.languageSelectInterface {width: 100%;padding: 10px 10px 0 10px;}
+.mainsection .jobsearch #topScroll #languageSelectInterface select {width:100%;}
+.mainsection .searchresults .resultstitlepanel .no-change-header .subtitle {font-size: 18px;line-height: 22px;}
+.jobsearch .contentlist tr.ftlrow td .jobcontentpanel span[id*="addthisButton"] {display:none;}
+.jobsearch .contentlist tr.ftlrow td .jobcontentpanel .separator {display:none !important;}
+.mainsection .pagerpanel .pagersectionpanel .pagerlabel {display:none;}
+.mainsection .inputselect {width: 100%;}
+head[title="EEO Diversity"] + body .mainsection .inputselect {border-radius: 4px;-webkit-border-radius: 4px;-moz-border-radius: 4px;}
+.accessmanagement .block-main-border-fix {padding:20px 10px 15px 10px;}
+.block-main-border-fix .page-header {float:none;width:100%;padding:0;}
+.accessmanagement .entity-mandatory-field {width: 100%;padding: 0;text-align: left;margin-bottom: 16px;}
+.block-main-border-fix > table {width:100%;padding:0;}
+.block-main-border-fix > table {margin:16px 0 0 0;}
+.block-main-border-fix > table > tbody > tr > td {display:block;width:100%;padding:0;}
+/*.accessmanagement .page-header-text {display:none;}*/
+.accessmanagement .dialog-columns-2,.accessmanagement .dialog-columns-openid {width:100%;padding:0;}
+.accessmanagement .page-heading-header-title {font-size: 24px;line-height: 30px;margin-bottom:0;}
+.accessmanagement .dialog-columns-2 {margin-bottom: 30px;}
+.accessmanagement .dialog-columns-openid {text-align:center;border:none;}
+.accessmanagement .dialog-columns-openid table {width:100%;}
+.accessmanagement .dialog-columns-openid table tr td {width:50%;}
+.accessmanagement .dialog-columns-openid table tr td:nth-child(3) {display:none;}
+.accessmanagement .button-group-center {float:left;margin-right:0;padding:0 2% 0 2%;margin-top:0;width:100%;}
+.myaccount .title, .myaccount .titleaction, .mainsection .titlepage {font-size: 24px;line-height: 30px;}
+.blockpanel .no-change-header .title, .blockpanel .no-change-header {font-size: 16px;}
+.mainsection .columnfull {padding-right:0;}
+head[title="EEO Diversity"] + body .textindentpanel {width:100%;}
+.jobsearch .contentlist tr.ftlrow td .iconcontentpanel .editablesection {padding:0 150px 0 0;}
+.entity-label + input {margin-bottom:16px;width:100%;}
+.iam-link-small-no-text-decoration {margin-bottom:5px;}
+.accessmanagement .page-header-action {margin-bottom:16px;padding:0;}
+#dialogTemplate-dialogForm[action*="forgotUsername"] .block-main-border-fix > table {margin-top:24px;}
+.footeraction .footeractionpanel .rightpanel {padding:5px 0 0 0;}
+.olflist .listpanel .listcontentpanel span.text {display:inline-block;}
+.mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton {margin-bottom:16px;}
+.mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton[id*="saveContinueCmd"] {margin-bottom:16px;}
+.mainsection .headerpanel .buttonpanel-container .on-the-right {margin:0 0 16px 0;}
+.mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton[id*="submitCmd"] {margin-bottom:16px;}
+
+/* common, header, and login blocks css ends here */
+
+/* apply steps css starts here */
+.entity-indent > table tr td.custom-form-columns .entity-block .entity-value.input-date-time {width: 100% !important;}
+.mainsection .headerpanel .infopanel {background-color:#ffffff;padding:10px 15px;}
+.mainsection .headerpanel .infopanel .infojob {font-size:14px;display:block;margin-bottom:4px;}
+.datatrain-t li {border:none;}
+.datatrain-t fieldset li:nth-child(2) {border:none;}
+span.datatrain-wrapper.datatrain-wagon-link {width:550px;position:relative;overflow:inherit;}
+.headerpanel .datatrain-tv, .datatrain-tv {width: 550px;max-width:inherit;margin:0;border:none;}
+.mainsection .metapanel {float:none;width:100%;text-align:center;margin-bottom:30px;}
+.mainsection .metapanel .flowstatus {margin-bottom:8px;display:inline-block;margin-top:40px;font-size:14px;}
+.datatrain-right-shifter, .datatrain-left-shifter {position:absolute;padding:0;}
+.datatrain-no-focus .datatrain-wagon, .datatrain-no-focus {background:none;}
+.datatrain-right-shifter {right: 0;top: -58px;}
+.datatrain-left-shifter {left: 0;top: -58px;}
+.datatrain-wagon span a:before {left:12px;}
+.mainsection > span.footeraction {padding:10px;}
+.datatrain-t fieldset li:last-child .datatrain-focus:after,.datatrain-t fieldset li:last-child .datatrain-no-focus:after {background:none;}
+.datatrain-t li .datatrain-wagon:before {font-size: 15px;}
+.datatrain-wagon * {font-size:12px;}
+.datatrain-t li .datatrain-wagon:before {left:30px;top:6px;}
+.datatrain-wagon span span {padding:54px 10px 0 10px;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .tablelist td.columnfull .no-change-header {font-size:20px;line-height:30px;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .tablelist td.columnfull .titlelinkoff {font-size:20px;line-height: 30px;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel {padding: 20px 10px 20px 10px;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .pager .pager-summary {display:none;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .filter {margin: 0 0 4px 0;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .filter select {width: 100%;height: 46px;margin-bottom: 16px;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .filter input {width:45%;height: 46px;margin-bottom: 5px;display:inline-block;margin:0;float: right;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .filter input[type="text"] {width:100%;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .filter span[id$="subFilterPanel"] {display:inline-block;width:45%;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .filter span[id$="inputTextPanel"] {display:inline-block;}
+.pager-index-label {padding:0 2px;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .buttonpanel {text-align:center;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .buttonpanel input {width:40%;margin:0 8px 0 8px;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .tablelist > tbody > tr {display:block;}
+.blockpanel .contentpanel .inputtextmulti2 {width:100%;-webkit-appearance: none;}
+.sugInput-sug {width:83%;}
+head[title="Resume/  CV"] + body .blockpanel .contentpanel .nolabelvaluepanel {display: block;max-width: 500px;overflow: auto;}
+.summary .contentblockpanel .nolabelvaluepanel {display: block;max-width: 500px;overflow: auto;width:auto;}
+head[title="Employment Preferences"] + body fieldset[id$="jobfield_selector"] {margin:0;padding:0;}
+head[title="Review and Submit"] + body .summary .tablelist tbody tr table.table {display:block;}
+head[title="Review and Submit"] + body .summary .tablelist tbody tr table.table tr {display:block;padding-bottom:10px;}
+head[title="Review and Submit"] + body .summary .tablelist tbody tr table.table tr td{display:block;width:100%;}
+.summary .headerblockpanel {padding:6px 0;}
+.myaccount .subtitleblockpanel, .summary .subtitleblockpanel {margin:8px 0 0 0;padding-left:0;}
+.mainsection .infoblockpanel {margin: 0 0 0 0;}
+.summary .contentblockpanel .labelpanel {margin:0 15px 0 0;word-break:break-word;}
+.summary .value, .myaccount .value {word-break:break-word;}
+html>body .headersection {padding:0;}
+td.columnfull .blockpanel .headerblockpanel h2.no-change-header .titleblock {font-size:16px;}
+.summary .contentblockpanel {margin:10px 0;}
+.datatrain-t li:nth-child(4) .datatrain-wagon span {font-size:13px;}
+.entity-indent > table tr td.custom-form-columns .entity-block .entity-label .entity-select-action,.entity-indent > table tr td.custom-form-columns .entity-block fieldset label[for*="Concentration"] + span a.nav-btn {height:36px;padding:7px 16px 5px;min-width:100px;} 
+html[lang="es"] .entity-indent > table tr td.custom-form-columns .entity-block .entity-label .entity-select-action {height:36px;padding:7px 16px 5px;}
+html[lang="zh_CN"] .entity-indent > table tr td.custom-form-columns .entity-block .entity-label .entity-select-action {height:36px;padding:7px 16px 5px;}
+.blockpanel .nolabelvaluepanel {width: 280px;overflow: auto;display: block;margin: 0 auto;}
+.blockpanel .attachment-list th.list-header {width:auto;white-space:nowrap;}
+html[lang="zh_CN"] .blockpanel .attachment-list th.attachment-list-header {width:inherit;white-space: nowrap;}
+
+html[lang="zh_CN"] .blockpanel .legend-pos + div > .custom-form-grid {width: 100%;}
+html[lang="zh_CN"] .blockpanel .legend-pos + div > .custom-form-grid td.custom-form-columns {width:100%;float: left;padding: 0;margin-right:0;}
+
+html[lang="fr"] .jobsearch .contentlist tr.ftlrow td .metalink2,html[lang="de"] .jobsearch .contentlist tr.ftlrow td .metalink2 {position:static;margin-top:10px;display:inline-block;}
+html[lang="fr"] .mainsection .footeractionpanel .buttongrouppanel2 .leftpanel .inputbutton,html[lang="de"] .mainsection .footeractionpanel .buttongrouppanel2 .leftpanel .inputbutton {margin-bottom:10px;}
+head[title="Review and Submit"] + body .mainsection .headerpanel .buttonpanel-container, head[title*="und weiterleiten"] + body .mainsection .headerpanel .buttonpanel-container, head[title*="rifier et soumettre"] + body .mainsection .headerpanel .buttonpanel-container, head[title*="Granska och skicka"] + body .mainsection .headerpanel .buttonpanel-container,.mainsection .headerpanel .buttonpanel-container {padding:15px 10px 15px 10px;}
+.blockpanel fieldset {margin-left:0;margin-right:0;}
+.mainsection > span.footeraction + .metapanel2 {margin: 0 10px 16px;}
+html[lang="ko"] .blockpanel .custom-form-columns {float: left;padding: 0;width: 100%;margin-right: 0;}
+html[lang="ko"] .blockpanel .custom-form-columns .entity-value {width:100% !important;}
+
+html[lang="ko"] table tr td.custom-form-columns .entity-block fieldset.entity-value.input-date-time .fs-508-inline {width:46%;}
+
+.mainsection .searchresults .listingperpagepanel {width:100%;float:none;margin-right: 0;}
+.datatrain-focus:after {border-left: 10px solid transparent;border-right: 10px solid transparent;border-bottom: 15px solid #fff;}
+/* apply steps css ends here */
+
+.datatrain-right-shifter {right: 20%;}
+.datatrain-left-shifter {left: 20%;}
+
+}
+
+@media (max-width: 450px){
+
+span.datatrain-wrapper.datatrain-wagon-link {width:358px;}
+.headerpanel .datatrain-tv, .datatrain-tv {width: 358px;}
+.datatrain-t li {width:120px;}
+}
+
+@media (max-width: 420px){
+	
+	.mainsection > span.footeraction {border:none;}
+	.mainsection .footeractionpanel .buttongrouppanel2 .leftpanel .inputbutton[value="Save and Continue"] {float:none;}
+    .mainsection .footeractionpanel .buttongrouppanel2 .inputbutton {min-width:inherit;width:100%;margin: 0 0 16px 0 !important;}
+	#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .filter span[id$="subFilterPanel"] {display:inline-block;width:100%;}
+	#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .filter input {width:100%;min-width:100%;float:none;}
+	#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .filter input[type="text"] {min-width: 100%;}
+	#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .filter span[id$="inputTextPanel"] {width:100%;margin-bottom:16px;}
+	#selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel .buttonpanel input {width:100%;margin:0 0 16px 0;max-width: inherit;} 
+	head[title="Resume/  CV"] + body .blockpanel .contentpanel,head[title="Attachments"] + body .blockpanel .contentpanel {width:100%;}
+	head[title="Resume/  CV"] + body .blockpanel .nolabelvaluepanel,head[title="Attachments"] + body .blockpanel .nolabelvaluepanel {display: block;max-width: 280px;overflow: auto;}
+	head[title="Employment Preferences"] + body fieldset select {width:100%;}
+	.summary .contentblockpanel .nolabelvaluepanel {display: block;max-width: 280px;overflow: auto;margin:0;}
+	.mainsection .footeractionpanel .buttongrouppanel2 .inputbutton {margin:0 0 16px 0 !important;}
+	.mainsection .footeractionpanel .buttongrouppanel2 .leftpanel .inputbutton:last-child {margin:0 !important;}
+	
+	/* Review and submit button top */
+	head[title="Review and Submit"] + body .mainsection .headerpanel .buttonpanel-container,head[title*="fen und weiterleiten"] + body .mainsection .headerpanel .buttonpanel-container,.mainsection .headerpanel .buttonpanel-container {padding:15px 10px 0 10px;}
+head[title="Review and Submit"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left,head[title*="fen und weiterleiten"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left,.mainsection .headerpanel .buttonpanel-container .on-the-left {display:block;float:none;}
+	head[title="Review and Submit"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton,head[title*="fen und weiterleiten"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton,head[title*="rifier et soumettre"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton,
+head[title*="Granska och skicka"] + body .mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton,.mainsection .headerpanel .buttonpanel-container .on-the-left .inputbutton{max-width:inherit;width:100%;margin-bottom:16px !important;}
+	/* Review and submit button top */
+	
+	.jobsearch .contentlist tr.ftlrow td .iconcontentpanel .editablesection {padding:0;}
+	.jobsearch .contentlist tr.ftlrow td .metalink2 {position:static;margin-top:10px;display:inline-block;}
+	.datatrain-t li:nth-child(4) .datatrain-wagon span {font-size:12px;}
+	#selectorSubView-selectorSubView-selectorForm-mainsection .list-structure {overflow: auto;max-width: 280px;margin:16px auto 0;}
+	.accessmanagement .button-group-center {width:100%;float:left;margin-right:0;padding:0 10px 0 10px;margin-top: 0;}
+	.accessmanagement .button-group-center > input[type="button"] {min-width:inherit;width:100%;margin-right:0;margin-bottom:16px;margin-left: 0;}
+	
+	.blockpanel .labelcontent select[id*="jobfield_selector"], .blockpanel .labelcontent select[id*="location_selector"], .blockpanel .labelcontent select[id*="organization_selector"] {padding:0;}
+	
+	.alert-frame .alert-message-notification .alert-text {font-size: 12px;max-height:250px;overflow: auto;}
+	.blockpanel .labelcontent[id*="jobfield_selector"],.blockpanel .labelcontent[id*="location_selector"] {padding:0;margin:0 0 5px 0;}
+	.blockpanel .labelcontent[id*="jobfield_selector"] select,.blockpanel .labelcontent[id*="location_selector"] select {width:100%;}
+	.mainsection .inputbutton[id*="commandButton_addJobField"],.mainsection .inputbutton[id*="CommandButton_addLocation"] {margin-bottom:8px;}
+	html[lang="de"] .olflist .listpanel {padding: 16px 85px 16px 0;word-break: break-word;}
+	html[lang="de"] .olflist .listpanel:first-child {margin:0;padding:0;}
+	html[lang="fr"] .olflist .listpanel {padding: 16px 85px 16px 0;word-break: break-word;}
+	html[lang="fr"] .olflist .listpanel:first-child {margin:0;padding:0;}
+	html[lang="es"] .olflist .listpanel {padding: 16px 85px 16px 0;word-break: break-word;}
+	html[lang="es"] .olflist .listpanel:first-child {margin:0;padding:0;}
+	.olflist .listpanel {padding: 16px 85px 16px 0;word-break: break-word;}
+	.olflist .listpanel:first-child {margin:0;padding:0;}
+	html[lang="zh_CN"] .blockpanel table.list th.list-header {width:inherit;}
+	html[lang="zh_CN"] .blockpanel .attachment-list th.list-header {width:inherit;}
+	html[lang="zh_CN"] .blockpanel .attachment-list th.attachment-list-header {width:inherit;white-space: nowrap;}
+	.myaccount .subtitleblockpanel, .summary .subtitleblockpanel {padding-left:0;}
+	.pdf-viewer-style #pdf-viewer .fields input.textbox {height:20px !important;width:80px !important;}
+	.mainsection .columnfull .blockpanel .olflist .listpanel {word-break: break-word;}
+	
+	.mainsection .inputbutton[id*="commandButton_addJobField"],input[type="button"][id*="commandButton_reset_jobfield_selector"],.mainsection .inputbutton[id*="CommandButton_addLocation"],.mainsection .inputbutton[id*="CommandButton_reset_location_selector"] {display:inline-block;vertical-align:top;}
+	td.columnfull .blockpanel .action-bar a {width:100%;margin:0}
+	td.columnfull .blockpanel .action-bar a[id*="ProfilerLink"] {margin:0 0 16px 0;}
+	.mainsection .pagerpanel .pagersectionpanel a[id*="Previous"], .mainsection .pagerpanel .pagersectionpanel a[id*="Next"] {padding:2px 8px;}
+	.mainsection .searchresults .listingperpagepanel .label,.mainsection .searchresults .sortbypanel .label{width:110px;text-align:right;vertical-align:middle;}
+}
+
+@media (max-width: 360px){
+
+span.datatrain-wrapper.datatrain-wagon-link {width:300px;}
+.headerpanel .datatrain-tv, .datatrain-tv {width: 300px;}
+.datatrain-t li {width: 150px;}
+}
+
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+	
+	.questionnaire fieldset label.text span.description {display: inline;}
+	html[lang="ko"] .questionnaire fieldset label.text span.description {display: inline;}
+	head[title*="rifier et soumettre"] + body .mainsection .headerpanel .buttonpanel-container {padding:36px 0 34px 10px;}
+	
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+	.questionnaire fieldset label.text span.description {display: inline;}
+	html[lang="ko"] .questionnaire fieldset label.text span.description {display: inline;}
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+  
+  .questionnaire fieldset label.text span.description {display: inline;}
+
+}

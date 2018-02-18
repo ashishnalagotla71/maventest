@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://www.programfaqs.com/xmlrpc.php">
+	
+
+	<!--[if lt IE 9]>
+	<script src="http://www.programfaqs.com/wp-content/themes/twentyfifteen/js/html5.js"></script>
+	<![endif]-->
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>Failed to execute maven-compiler-plugin:3.6.1:testCompile when using java 9 &#8211; program faq</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.programfaqs.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.1"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56794,8205,9794,65039],[55358,56794,8203,9794,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='twentyfifteen-fonts-css'  href='https://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://www.programfaqs.com/wp-content/themes/twentyfifteen/genericons/genericons.css?ver=3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-style-css'  href='http://www.programfaqs.com/wp-content/themes/twentyfifteen/style.css?ver=4.9.1' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfifteen-ie-css'  href='http://www.programfaqs.com/wp-content/themes/twentyfifteen/css/ie.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='twentyfifteen-ie7-css'  href='http://www.programfaqs.com/wp-content/themes/twentyfifteen/css/ie7.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='http://www.programfaqs.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.programfaqs.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://www.programfaqs.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.programfaqs.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.programfaqs.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Find all sets of four 5-letter words made of 10 letters repeated twice' href='http://www.programfaqs.com/faq/find-all-sets-of-four-5-letter-words-made-of-10-letters-repeated-twice/' />
+<link rel='next' title='Why Do I Need to Initialize Variables in TensorFlow?' href='http://www.programfaqs.com/faq/why-do-i-need-to-initialize-variables-in-tensorflow/' />
+<link rel="canonical" href="http://www.programfaqs.com/faq/failed-to-execute-maven-compiler-plugin3-6-1testcompile-when-using-java-9/" />
+<link rel='shortlink' href='http://www.programfaqs.com/?p=42083' />
+<link rel="alternate" type="application/json+oembed" href="http://www.programfaqs.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.programfaqs.com%2Ffaq%2Ffailed-to-execute-maven-compiler-plugin3-6-1testcompile-when-using-java-9%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.programfaqs.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.programfaqs.com%2Ffaq%2Ffailed-to-execute-maven-compiler-plugin3-6-1testcompile-when-using-java-9%2F&#038;format=xml" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-50210222-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-50210222-2');
+</script>
+<meta name="google-site-verification" content="i1qh0iWK5uLgRT4HUxYLpa3fi91u6GG52L7HOxRhEyw" />
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-8797309516586053",
+    enable_page_level_ads: true
+  });
+</script>
+
+
+
+</head>
+
+<body class="post-template-default single single-post postid-42083 single-format-standard">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<div id="sidebar" class="sidebar">
+		<header id="masthead" class="site-header" role="banner">
+			<div class="site-branding">
+										<p class="site-title"><a href="http://www.programfaqs.com/" rel="home">program faq</a></p>
+											<p class="site-description">Programming Frequently Asked Questions And Answer</p>
+									<button class="secondary-toggle">Menu and widgets</button>
+			</div><!-- .site-branding -->
+		</header><!-- .site-header -->
+
+			<div id="secondary" class="secondary">
+
+		
+		
+
+					<div id="widget-area" class="widget-area" role="complementary">
+				<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://www.programfaqs.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit screen-reader-text" value="Search" />
+			</form></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">Recent Posts</h2>		<ul>
+											<li>
+					<a href="http://www.programfaqs.com/faq/spring-boot-actuator-on-non-boot-application-change-endpoints-basepath/">Spring Boot Actuator on non Boot application &#8211; change endpoints basepath</a>
+									</li>
+											<li>
+					<a href="http://www.programfaqs.com/faq/using-boostnumericodeint-to-integrate-a-non-linear-function-fx-y-z-a-bi/">Using boost::numeric::odeint to integrate a non-linear function f'(x, y, z) = a + b*I</a>
+									</li>
+											<li>
+					<a href="http://www.programfaqs.com/faq/ms-access-convert-and-summarise-two-rows-into-columns-with-unique-names/">MS Access convert and summarise two rows into columns with unique names</a>
+									</li>
+											<li>
+					<a href="http://www.programfaqs.com/faq/how-to-write-the-batch-file-for-copying-the-files-form-same-location-to-other-location/">How to write the batch file for copying the files form same location to other location</a>
+									</li>
+											<li>
+					<a href="http://www.programfaqs.com/faq/how-do-i-use-coalesce-rowise/">How do I use coalesce rowise?</a>
+									</li>
+											<li>
+					<a href="http://www.programfaqs.com/faq/record-entire-screen/">Record entire screen</a>
+									</li>
+											<li>
+					<a href="http://www.programfaqs.com/faq/relative-angle-of-a-polygon-c-fltk-basics/">Relative Angle of a Polygon C++ — FLTK Basics</a>
+									</li>
+											<li>
+					<a href="http://www.programfaqs.com/faq/embedding-f-interactive-throw-system-exception-error-creating-evaluation-session-stopprocessingexn-none/">Embedding F# Interactive throw System.Exception: &#8216;Error creating evaluation session: StopProcessingExn None&#8217;</a>
+									</li>
+					</ul>
+		</aside><aside id="recent-comments-2" class="widget widget_recent_comments"><h2 class="widget-title">Recent Comments</h2><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">guest</span> on <a href="http://www.programfaqs.com/faq/angular-not-compiling-sass-scss-files/comment-page-1/#comment-136604">Angular not compiling SASS/SCSS files</a></li><li class="recentcomments"><span class="comment-author-link">guest</span> on <a href="http://www.programfaqs.com/faq/while-running-c-program-on-x-code-this-is-what-it-is-showing-up-in-error-thread-1-exc_bad_access-code1-address0x68/comment-page-1/#comment-136603">While Running C program on X-Code this is what it is showing up in error &#8211; Thread 1: EXC_BAD_ACCESS (code=1, address=0x68)</a></li><li class="recentcomments"><span class="comment-author-link">guest</span> on <a href="http://www.programfaqs.com/faq/how-to-resolve-delayed-iron-ajax-response/comment-page-1/#comment-136602">How to Resolve Delayed iron-ajax Response</a></li><li class="recentcomments"><span class="comment-author-link">guest</span> on <a href="http://www.programfaqs.com/faq/django-creating-categories-using-querysets-filtering/comment-page-1/#comment-136601">Django: Creating categories using querysets/filtering</a></li><li class="recentcomments"><span class="comment-author-link">guest</span> on <a href="http://www.programfaqs.com/faq/how-remove-zero-values-in-a-heatmap/comment-page-1/#comment-136600">How remove zero values in a heatmap?</a></li></ul></aside><aside id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">Related Tags</h2><div class="tagcloud"><ul class='wp-tag-cloud' role='list'>
+	<li><a href="http://www.programfaqs.com/faq/tag/net/" class="tag-cloud-link tag-link-1615 tag-link-position-1" style="font-size: 8.9655172413793pt;" aria-label=".net (1,276 items)">.net<span class="tag-link-count"> (1276)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/ajax/" class="tag-cloud-link tag-link-1917 tag-link-position-2" style="font-size: 8.8448275862069pt;" aria-label="ajax (1,246 items)">ajax<span class="tag-link-count"> (1246)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/amazon-web-services/" class="tag-cloud-link tag-link-2220 tag-link-position-3" style="font-size: 8.4827586206897pt;" aria-label="amazon-web-services (1,165 items)">amazon-web-services<span class="tag-link-count"> (1165)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/android/" class="tag-cloud-link tag-link-1628 tag-link-position-4" style="font-size: 19.465517241379pt;" aria-label="android (9,616 items)">android<span class="tag-link-count"> (9616)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/angular/" class="tag-cloud-link tag-link-1684 tag-link-position-5" style="font-size: 14.51724137931pt;" aria-label="angular (3,681 items)">angular<span class="tag-link-count"> (3681)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/angularjs/" class="tag-cloud-link tag-link-1854 tag-link-position-6" style="font-size: 10.293103448276pt;" aria-label="angularjs (1,646 items)">angularjs<span class="tag-link-count"> (1646)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/arrays/" class="tag-cloud-link tag-link-1611 tag-link-position-7" style="font-size: 12.465517241379pt;" aria-label="arrays (2,525 items)">arrays<span class="tag-link-count"> (2525)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/asp-net/" class="tag-cloud-link tag-link-1645 tag-link-position-8" style="font-size: 10.172413793103pt;" aria-label="asp.net (1,606 items)">asp.net<span class="tag-link-count"> (1606)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/asp-net-mvc/" class="tag-cloud-link tag-link-1646 tag-link-position-9" style="font-size: 8.3620689655172pt;" aria-label="asp.net-mvc (1,155 items)">asp.net-mvc<span class="tag-link-count"> (1155)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/c-3/" class="tag-cloud-link tag-link-1833 tag-link-position-10" style="font-size: 10.896551724138pt;" aria-label="c (1,877 items)">c<span class="tag-link-count"> (1877)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/c/" class="tag-cloud-link tag-link-1634 tag-link-position-11" style="font-size: 18.862068965517pt;" aria-label="c# (8,428 items)">c#<span class="tag-link-count"> (8428)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/c-2/" class="tag-cloud-link tag-link-1637 tag-link-position-12" style="font-size: 14.637931034483pt;" aria-label="c++ (3,831 items)">c++<span class="tag-link-count"> (3831)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/css/" class="tag-cloud-link tag-link-1716 tag-link-position-13" style="font-size: 15.362068965517pt;" aria-label="css (4,319 items)">css<span class="tag-link-count"> (4319)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/database/" class="tag-cloud-link tag-link-2265 tag-link-position-14" style="font-size: 8.4827586206897pt;" aria-label="database (1,166 items)">database<span class="tag-link-count"> (1166)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/django/" class="tag-cloud-link tag-link-1861 tag-link-position-15" style="font-size: 10.896551724138pt;" aria-label="django (1,846 items)">django<span class="tag-link-count"> (1846)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/excel/" class="tag-cloud-link tag-link-1692 tag-link-position-16" style="font-size: 10.655172413793pt;" aria-label="excel (1,793 items)">excel<span class="tag-link-count"> (1793)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/firebase/" class="tag-cloud-link tag-link-1844 tag-link-position-17" style="font-size: 10.051724137931pt;" aria-label="firebase (1,580 items)">firebase<span class="tag-link-count"> (1580)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/html/" class="tag-cloud-link tag-link-1740 tag-link-position-18" style="font-size: 17.293103448276pt;" aria-label="html (6,255 items)">html<span class="tag-link-count"> (6255)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/ios/" class="tag-cloud-link tag-link-1675 tag-link-position-19" style="font-size: 15pt;" aria-label="ios (4,051 items)">ios<span class="tag-link-count"> (4051)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/java/" class="tag-cloud-link tag-link-1636 tag-link-position-20" style="font-size: 20.310344827586pt;" aria-label="java (11,206 items)">java<span class="tag-link-count"> (11206)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/javascript/" class="tag-cloud-link tag-link-2 tag-link-position-21" style="font-size: 22pt;" aria-label="javascript (15,387 items)">javascript<span class="tag-link-count"> (15387)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/jquery/" class="tag-cloud-link tag-link-1739 tag-link-position-22" style="font-size: 15.965517241379pt;" aria-label="jquery (4,932 items)">jquery<span class="tag-link-count"> (4932)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/json/" class="tag-cloud-link tag-link-1612 tag-link-position-23" style="font-size: 12.586206896552pt;" aria-label="json (2,549 items)">json<span class="tag-link-count"> (2549)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/laravel/" class="tag-cloud-link tag-link-2197 tag-link-position-24" style="font-size: 10.413793103448pt;" aria-label="laravel (1,712 items)">laravel<span class="tag-link-count"> (1712)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/linux/" class="tag-cloud-link tag-link-1802 tag-link-position-25" style="font-size: 9.9310344827586pt;" aria-label="linux (1,544 items)">linux<span class="tag-link-count"> (1544)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/mongodb/" class="tag-cloud-link tag-link-1687 tag-link-position-26" style="font-size: 8.9655172413793pt;" aria-label="mongodb (1,288 items)">mongodb<span class="tag-link-count"> (1288)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/mysql/" class="tag-cloud-link tag-link-1765 tag-link-position-27" style="font-size: 14.758620689655pt;" aria-label="mysql (3,928 items)">mysql<span class="tag-link-count"> (3928)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/node-js/" class="tag-cloud-link tag-link-1689 tag-link-position-28" style="font-size: 14.51724137931pt;" aria-label="node.js (3,678 items)">node.js<span class="tag-link-count"> (3678)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/pandas/" class="tag-cloud-link tag-link-1969 tag-link-position-29" style="font-size: 9.8103448275862pt;" aria-label="pandas (1,522 items)">pandas<span class="tag-link-count"> (1522)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/php/" class="tag-cloud-link tag-link-1721 tag-link-position-30" style="font-size: 19.224137931034pt;" aria-label="php (9,160 items)">php<span class="tag-link-count"> (9160)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/python/" class="tag-cloud-link tag-link-1619 tag-link-position-31" style="font-size: 21.275862068966pt;" aria-label="python (13,367 items)">python<span class="tag-link-count"> (13367)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/python-3-x/" class="tag-cloud-link tag-link-1631 tag-link-position-32" style="font-size: 12.827586206897pt;" aria-label="python-3.x (2,708 items)">python-3.x<span class="tag-link-count"> (2708)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/r/" class="tag-cloud-link tag-link-1904 tag-link-position-33" style="font-size: 13.913793103448pt;" aria-label="r (3,289 items)">r<span class="tag-link-count"> (3289)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/react-native/" class="tag-cloud-link tag-link-1734 tag-link-position-34" style="font-size: 8.3620689655172pt;" aria-label="react-native (1,148 items)">react-native<span class="tag-link-count"> (1148)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/reactjs/" class="tag-cloud-link tag-link-1657 tag-link-position-35" style="font-size: 12.344827586207pt;" aria-label="reactjs (2,449 items)">reactjs<span class="tag-link-count"> (2449)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/regex/" class="tag-cloud-link tag-link-1650 tag-link-position-36" style="font-size: 8.9655172413793pt;" aria-label="regex (1,274 items)">regex<span class="tag-link-count"> (1274)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/ruby-on-rails/" class="tag-cloud-link tag-link-2119 tag-link-position-37" style="font-size: 8.9655172413793pt;" aria-label="ruby-on-rails (1,273 items)">ruby-on-rails<span class="tag-link-count"> (1273)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/spring/" class="tag-cloud-link tag-link-1664 tag-link-position-38" style="font-size: 9.8103448275862pt;" aria-label="spring (1,512 items)">spring<span class="tag-link-count"> (1512)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/sql/" class="tag-cloud-link tag-link-1804 tag-link-position-39" style="font-size: 13.793103448276pt;" aria-label="sql (3,221 items)">sql<span class="tag-link-count"> (3221)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/sql-server/" class="tag-cloud-link tag-link-1655 tag-link-position-40" style="font-size: 11.137931034483pt;" aria-label="sql-server (1,955 items)">sql-server<span class="tag-link-count"> (1955)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/swift/" class="tag-cloud-link tag-link-1676 tag-link-position-41" style="font-size: 13.551724137931pt;" aria-label="swift (3,073 items)">swift<span class="tag-link-count"> (3073)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/typescript/" class="tag-cloud-link tag-link-1856 tag-link-position-42" style="font-size: 9.5689655172414pt;" aria-label="typescript (1,441 items)">typescript<span class="tag-link-count"> (1441)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/vba/" class="tag-cloud-link tag-link-1693 tag-link-position-43" style="font-size: 8.7241379310345pt;" aria-label="vba (1,233 items)">vba<span class="tag-link-count"> (1233)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/wordpress/" class="tag-cloud-link tag-link-1778 tag-link-position-44" style="font-size: 10.413793103448pt;" aria-label="wordpress (1,693 items)">wordpress<span class="tag-link-count"> (1693)</span></a></li>
+	<li><a href="http://www.programfaqs.com/faq/tag/xml/" class="tag-cloud-link tag-link-1766 tag-link-position-45" style="font-size: 8pt;" aria-label="xml (1,059 items)">xml<span class="tag-link-count"> (1059)</span></a></li>
+</ul>
+</div>
+</aside>			</div><!-- .widget-area -->
+		
+	</div><!-- .secondary -->
+
+	</div><!-- .sidebar -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+<article id="post-42083" class="post-42083 post type-post status-publish format-standard hentry category-faqs tag-eclipse tag-java tag-java-9 tag-maven tag-module-info">
+	
+	<header class="entry-header">
+		<h1 class="entry-title">Failed to execute maven-compiler-plugin:3.6.1:testCompile when using java 9</h1>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<div class="post-text" itemprop="text">
+<p>I know that there are a lot question with similar error. I would appreciate before point as duplicate take in account that it only happens with Java 9.</p>
+<p>I do have java 9 installed</p>
+<pre><code>C:\_pocs\ws_j9\java9-http-client&gt;java -version
+java version &quot;9.0.1&quot;
+Java(TM) SE Runtime Environment (build 9.0.1+11)
+Java HotSpot(TM) 64-Bit Server VM (build 9.0.1+11, mixed mode)
+
+C:\_pocs\ws_j9\java9-http-client&gt;echo %JAVA_HOME%
+C:\Program Files\Java\jdk-9.0.1</code></pre>
+<p>To make simple the exemplification, if i download a very simple example <a href="https://examples.javacodegeeks.com/core-java/java-9-httpclient-example/" rel="nofollow noreferrer">https://examples.javacodegeeks.com/core-java/java-9-httpclient-example/</a> and I try/</p>
+<p>mvn clean install package -e</p>
+<pre><code>[ERROR] Failed to parse module-info:
+[ERROR] With qdox: null
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.925 s
+[INFO] Finished at: 2018-01-01T23:43:32+01:00
+[INFO] Final Memory: 13M/44M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.1:testCompile (default-testCompile) on project http_client: Execution default-testCompile of goal org.apache.maven.plugins:maven-compiler-plugin:3.6.1:testCompile failed: Failed to parse module-info -&gt; [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.1:testCompile (default-testCompile) on project http_client: Execution default-testCompile of goal org.apache.maven.plugins:maven-compiler-plugin:3.6.1:testCompile failed: Failed to parse module-info
+        at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:213)</code></pre>
+<p>pom.xml</p>
+<pre><code>&lt;project xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+    xsi:schemaLocation=&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&quot;&gt;
+    &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;
+    &lt;groupId&gt;com.javacodegeeks.java9&lt;/groupId&gt;
+    &lt;artifactId&gt;http_client&lt;/artifactId&gt;
+    &lt;version&gt;0.0.1-SNAPSHOT&lt;/version&gt;
+    &lt;name&gt;Java9HttpClient&lt;/name&gt;
+    &lt;description&gt;Java Http Client example&lt;/description&gt;
+    &lt;properties&gt;
+        &lt;java-version&gt;1.9&lt;/java-version&gt;
+
+        &lt;maven-compiler-plugin-version&gt;3.6.1&lt;/maven-compiler-plugin-version&gt;
+        &lt;maven-shade-plugin-version&gt;3.0.0&lt;/maven-shade-plugin-version&gt;
+    &lt;/properties&gt;
+
+    &lt;build&gt;
+        &lt;pluginManagement&gt;
+            &lt;plugins&gt;
+                &lt;plugin&gt;
+                    &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
+                    &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;
+                    &lt;version&gt;${maven-compiler-plugin-version}&lt;/version&gt;
+                &lt;/plugin&gt;
+                &lt;plugin&gt;
+                    &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
+                    &lt;artifactId&gt;maven-shade-plugin&lt;/artifactId&gt;
+                    &lt;version&gt;${maven-shade-plugin-version}&lt;/version&gt;
+                &lt;/plugin&gt;
+            &lt;/plugins&gt;
+        &lt;/pluginManagement&gt;
+        &lt;plugins&gt;
+            &lt;plugin&gt;
+                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
+                &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;
+                &lt;configuration&gt;
+                    &lt;source&gt;${java-version}&lt;/source&gt;
+                    &lt;target&gt;${java-version}&lt;/target&gt;
+                    &lt;verbose&gt;true&lt;/verbose&gt;
+                &lt;/configuration&gt;
+            &lt;/plugin&gt;
+            &lt;plugin&gt;
+                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
+                &lt;artifactId&gt;maven-shade-plugin&lt;/artifactId&gt;
+                &lt;executions&gt;
+                    &lt;execution&gt;
+                        &lt;phase&gt;package&lt;/phase&gt;
+                        &lt;goals&gt;
+                            &lt;goal&gt;shade&lt;/goal&gt;
+                        &lt;/goals&gt;
+                        &lt;configuration&gt;
+                            &lt;transformers&gt;
+                                &lt;transformer
+                                    implementation=&quot;org.apache.maven.plugins.shade.resource.ManifestResourceTransformer&quot;&gt;
+                                    &lt;mainClass&gt;com.javacodegeeks.java9.http_client.Main&lt;/mainClass&gt;
+                                &lt;/transformer&gt;
+                            &lt;/transformers&gt;
+                        &lt;/configuration&gt;
+                    &lt;/execution&gt;
+                &lt;/executions&gt;
+            &lt;/plugin&gt;
+        &lt;/plugins&gt;
+    &lt;/build&gt;
+&lt;/project&gt;</code></pre>
+<p>I am bit confused what could be causing this issue. On top of this, I am facing another challenge that make it a bit harder for someone trying to use Java 9 for first time: my Eclipse isn&#8217;t properly accepting Java 9. I tried install Java 9 Support in Eclipse Oxygen which I just downloaded it but I am getting &#8220;No repository found at <a href="http://download.eclipse.org/eclipse/updates/none" rel="nofollow noreferrer">http://download.eclipse.org/eclipse/updates/none</a>&#8220;. And I can&#8217;t make this mvn plugin update the Java version to 9 (it used to work properly for Java &lt; 1.8:</p>
+<pre><code>    &lt;properties&gt;
+        &lt;java-version&gt;1.9&lt;/java-version&gt;
+...
+            &lt;plugin&gt;
+                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
+                &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;
+                &lt;configuration&gt;
+                    &lt;source&gt;${java-version}&lt;/source&gt;
+                    &lt;target&gt;${java-version}&lt;/target&gt;
+                    &lt;verbose&gt;true&lt;/verbose&gt;
+                &lt;/configuration&gt;
+            &lt;/plugin&gt;</code></pre>
+<p>That is the reason I am trying to compile straich from command line.</p>
+<p>I read that Java 9 came with new concept of modularity which will help us better organize the packages but I am very limeted if this could drive me to fix my issue. It might be some obvious solution whe someone sees &#8220;Failed to parse module-info&#8221; but I can&#8217;t imagine anything usefull to try.</p>
+<p>My straight question is what I could check in order to compile. An additional trick regard making Eclipse Oxygen current version compatible with Java 9 will be appreciatte as well.</p>
+<ul>
+<li>Edited</li>
+</ul>
+<p><a href="https://i.stack.imgur.com/rhawH.png" rel="nofollow noreferrer"><img alt="enter image description here" src="https://i.stack.imgur.com/rhawH.png"/></a></p>
+<p>Eclipse version downloaded for Windows less than 24 hours ago:</p>
+<p>Eclipse Java EE IDE for Web Developers.</p>
+<p>Version: Oxygen.2 Release (4.7.2)<br />
+Build id: 20171218-0600</p>
+<ul>
+<li>Edited second time</li>
+</ul>
+<p>After I changed from 1.9 to 9 the red error icon was gone and I have now Java 9. Nevertheless, now I got this error:</p>
+<pre><code>[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] No compiler is provided in this environment. Perhaps you are running on a JRE rather than a JDK?
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.542 s
+[INFO] Finished at: 2018-01-02T05:19:30+01:00
+[INFO] Final Memory: 9M/30M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile (default-compile) on project http_client: Compilation failure
+[ERROR] No compiler is provided in this environment. Perhaps you are running on a JRE rather than a JDK?</code></pre>
+<p>Which doesn&#8217;t make sense to me because:</p>
+<p><a href="https://i.stack.imgur.com/q6fcu.png" rel="nofollow noreferrer"><img alt="enter image description here" src="https://i.stack.imgur.com/q6fcu.png"/></a></p>
+<ul>
+<li>Edited third time</li>
+</ul>
+<p><a href="https://i.stack.imgur.com/F2CIo.png" rel="nofollow noreferrer"><img alt="enter image description here" src="https://i.stack.imgur.com/F2CIo.png"/></a></p>
+</div>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://www.programfaqs.com/faq/failed-to-execute-maven-compiler-plugin3-6-1testcompile-when-using-java-9/" rel="bookmark"><time class="entry-date published updated" datetime="2018-01-02T06:25:16+00:00">January 2, 2018</time></a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="http://www.programfaqs.com/faq/tag/eclipse/" rel="tag">eclipse</a>, <a href="http://www.programfaqs.com/faq/tag/java/" rel="tag">java</a>, <a href="http://www.programfaqs.com/faq/tag/java-9/" rel="tag">java-9</a>, <a href="http://www.programfaqs.com/faq/tag/maven/" rel="tag">maven</a>, <a href="http://www.programfaqs.com/faq/tag/module-info/" rel="tag">module-info</a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<div id="comments" class="comments-area">
+
+			<h2 class="comments-title">
+			One thought on &ldquo;Failed to execute maven-compiler-plugin:3.6.1:testCompile when using java 9&rdquo;		</h2>
+
+		
+		<ol class="comment-list">
+					<li id="comment-32638" class="comment even thread-even depth-1">
+			<article id="div-comment-32638" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+												<b class="fn">guest</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://www.programfaqs.com/faq/failed-to-execute-maven-compiler-plugin3-6-1testcompile-when-using-java-9/#comment-32638">
+							<time datetime="2018-01-10T22:32:35+00:00">
+								January 10, 2018 at 10:32 pm							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>In short, add a missing/misplaced class named <code>module-info.java</code> to include your project&#8217;s module declaration at your project&#8217;s source root. (e.g <code>src/main/java</code>)<br />
+Additionally, note to <a href="https://cwiki.apache.org/confluence/display/MAVEN/Java+9+-+Jigsaw" rel="nofollow">upgrade to the version 3.7.0</a> of the <code>maven-compiler-plugin</code> in case you have a <strong><a href="https://issues.apache.org/jira/browse/MCOMPILER-289" rel="nofollow">comment included in your <code>module-info</code> class</a></strong>. [The logs seems pretty relevant to this.]</p>
+<p>Or the other way, if you wish to compile your project with a previous version of Java then use the <a href="https://maven.apache.org/plugins/maven-compiler-plugin/compile-mojo.html#release" rel="nofollow"><code>release</code></a> flag as:<br />
+<code>&lt;plugin&gt;<br />
+    &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;<br />
+    &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;<br />
+    &lt;version&gt;3.7.0&lt;/version&gt;<br />
+    &lt;configuration&gt;<br />
+        &lt;release&gt;8&lt;/release&gt;<br />
+        &lt;verbose&gt;true&lt;/verbose&gt;<br />
+    &lt;/configuration&gt;<br />
+&lt;/plugin&gt;</code></p>
+<p>Concepts<br />
+With Java9 marking the completion of the project <a href="http://openjdk.java.net/projects/jigsaw/" rel="nofollow">Jigsaw</a> therein introducing the <a href="http://cr.openjdk.java.net/~mr/jigsaw/spec/" rel="nofollow">Java Platform Module System (JPMS)</a>, projects build on Java version 9 and above <em>would be modularised</em>. This would include a primary compiled class called <code>module-info.class</code> which is that <a href="https://docs.oracle.com/javase/specs/jls/se9/html/jls-7.html#jls-7.7" rel="nofollow">module&#8217;s declaration</a>.<br />
+The <a href="http://openjdk.java.net/projects/jigsaw/spec/sotms/2015-09-08" rel="nofollow">initial draft</a> and eventually <a href="http://openjdk.java.net/projects/jigsaw/spec/sotms/" rel="nofollow">The State of the Module System</a> describes best over the concepts followed and practiced.</p>
+<blockquote><p>
+An additional trick regard making Eclipse Oxygen current version<br />
+  compatible with Java 9
+</p></blockquote>
+<p>AFAIK the <a href="https://www.eclipse.org/downloads/packages/release/Oxygen/2" rel="nofollow">latest Oxygen builds (Oxygen.2 at this point in time)</a> from Eclipse are meant to be Java9 compatible without any additional plugin support anymore.</p>
+<p>Additional Useful Resources:</p>
+<p><a href="https://docs.oracle.com/javase/9/migrate/toc.htm#JSMIG-GUID-7744EF96-5899-4FB2-B34E-86D49B2E89B6" rel="nofollow">JDK9 Migration Guide</a><br />
+<a href="https://maven.apache.org/plugins/maven-compiler-plugin/examples/module-info.html" rel="nofollow">Maven compiler plugin&#8217;s example over module-info inclusion and exclusion</a></p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.programfaqs.com/faq/failed-to-execute-maven-compiler-plugin3-6-1testcompile-when-using-java-9/?replytocom=32638#respond' onclick='return addComment.moveForm( "div-comment-32638", "32638", "respond", "42083" )' aria-label='Reply to guest'>Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+		</ol><!-- .comment-list -->
+
+		
+	
+	
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/faq/failed-to-execute-maven-compiler-plugin3-6-1testcompile-when-using-java-9/#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="http://www.programfaqs.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+				<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name</label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" /></p>
+<p class="comment-form-email"><label for="email">Email</label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='42083' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>			</form>
+			</div><!-- #respond -->
+	
+</div><!-- .comments-area -->
+
+	<nav class="navigation post-navigation" role="navigation">
+
+		<div class="nav-links">
+			<h3 style="padding:2% 2%;font-size:105%">The same question:</h3>
+		    		    <a href="http://www.programfaqs.com/faq/spring-boot-actuator-on-non-boot-application-change-endpoints-basepath/" style="padding:2% 2%;font-weight:400">Spring Boot Actuator on non Boot application &#8211; change endpoints basepath</a>
+		    		    <a href="http://www.programfaqs.com/faq/jpa-eclipselink-how-to-do-an-object-with-foreign-key/" style="padding:2% 2%;font-weight:400">JPA/EclipseLink &#8211; How to do an object with foreign key</a>
+		    		    <a href="http://www.programfaqs.com/faq/android-choose-audio-and-play-instantly-with-uri/" style="padding:2% 2%;font-weight:400">android-choose audio and play instantly with Uri</a>
+		    		    <a href="http://www.programfaqs.com/faq/converting-a-binary-heap-to-a-d-heap/" style="padding:2% 2%;font-weight:400">Converting a binary heap to a d-heap</a>
+		    		    <a href="http://www.programfaqs.com/faq/detecting-a-swipegesture-on-a-viewgroup-and-all-its-child-views/" style="padding:2% 2%;font-weight:400">Detecting a SwipeGesture on a ViewGroup and all its child views</a>
+		    		    <a href="http://www.programfaqs.com/faq/no-methods-in-asynctask-is-ever-called/" style="padding:2% 2%;font-weight:400">No methods in AsyncTask is ever called</a>
+		    		    <a href="http://www.programfaqs.com/faq/implementing-the-ahbottomnavigation-ontabselected-method/" style="padding:2% 2%;font-weight:400">implementing the AHBottomNavigation onTabSelected method</a>
+		    		    <a href="http://www.programfaqs.com/faq/how-can-i-write-an-array-of-objects-to-a-txt-file-using-serialization/" style="padding:2% 2%;font-weight:400">How can I write an array of objects to a txt file using serialization?</a>
+		    		
+
+		</div>
+		</nav>
+
+		
+
+	<nav class="navigation post-navigation" role="navigation">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="http://www.programfaqs.com/faq/find-all-sets-of-four-5-letter-words-made-of-10-letters-repeated-twice/" rel="prev"><span class="meta-nav" aria-hidden="true">Previous</span> <span class="screen-reader-text">Previous post:</span> <span class="post-title">Find all sets of four 5-letter words made of 10 letters repeated twice</span></a></div><div class="nav-next"><a href="http://www.programfaqs.com/faq/why-do-i-need-to-initialize-variables-in-tensorflow/" rel="next"><span class="meta-nav" aria-hidden="true">Next</span> <span class="screen-reader-text">Next post:</span> <span class="post-title">Why Do I Need to Initialize Variables in TensorFlow?</span></a></div></div>
+	</nav>				
+
+		</main><!-- .site-main -->
+	</div><!-- .content-area -->
+
+
+	</div><!-- .site-content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+						<a href="http://www.programfaqs.com">
+				program faq			</a>
+&nbsp;<a href="http://www.programfaqs.com/privacy-policy.htm" target="_blank" style="color:#000;font-size:1em;">Privacy policy</a>&nbsp;&nbsp;<a href="/about-us">About us</a>&nbsp;&nbsp;<a href="/contact">contact</a>
+		</div><!-- .site-info -->
+	</footer><!-- .site-footer -->
+
+</div><!-- .site -->
+
+<script type='text/javascript' src='http://www.programfaqs.com/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js?ver=20141010'></script>
+<script type='text/javascript' src='http://www.programfaqs.com/wp-includes/js/comment-reply.min.js?ver=4.9.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var screenReaderText = {"expand":"<span class=\"screen-reader-text\">expand child menu<\/span>","collapse":"<span class=\"screen-reader-text\">collapse child menu<\/span>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.programfaqs.com/wp-content/themes/twentyfifteen/js/functions.js?ver=20150330'></script>
+<script type='text/javascript' src='http://www.programfaqs.com/wp-includes/js/wp-embed.min.js?ver=4.9.1'></script>
+
+<div style="display:none;">
+<script src="https://s19.cnzz.com/z_stat.php?id=1271880901&web_id=1271880901" language="JavaScript"></script>
+</div>
+
+</body>
+</html>
