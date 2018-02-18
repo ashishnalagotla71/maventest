@@ -2,7 +2,7 @@
 <test name="testngTest">
     <classes>
         <class name="googlehome" />
-        <class name="test2" />
+
     </classes>
 </test>
         </suite>
